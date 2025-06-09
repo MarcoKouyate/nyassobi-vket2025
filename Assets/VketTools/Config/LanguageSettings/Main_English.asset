@@ -1,0 +1,415 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09067ea199f97fc459a3b251c082b626, type: 3}
+  m_Name: Main_English
+  m_EditorClassIdentifier: 
+  _tag: Main
+  _systemLanguage: 10
+  _language:
+  - _key: Vket_ControlPanel.CreateSubmissionSceneButton
+    _value: Create a new Submission Scene
+  - _key: Vket_ControlPanel.BoothCheckButton
+    _value: Booth Check
+  - _key: Vket_ControlPanel.BuildSizeCheckButton
+    _value: Build Size Check
+  - _key: Vket_ControlPanel.SetPassCheckButton
+    _value: SetPass Check
+  - _key: Vket_ControlPanel.LogOutButton
+    _value: Logout
+  - _key: Vket_ControlPanel.SubmissionButton
+    _value: Submit Exhibition
+  - _key: Vket_ControlPanel.CircleName
+    _value: Circle Name
+  - _key: Vket_ControlPanel.UserName
+    _value: User Name
+  - _key: Vket_ControlPanel.PlacementWorld
+    _value: Exhibiting World
+  - _key: Vket_ControlPanel.Login
+    _value: Login
+  - _key: Vket_ControlPanel.LoginVketAccount
+    _value: Login with Vket Account
+  - _key: Yes
+    _value: Yes
+  - _key: No
+    _value: No
+  - _key: Cancel
+    _value: Cancel
+  - _key: Confirmed
+    _value: Confirm
+  - _key: Vket_ControlPanel.BoothCheckFunc.CancelDialogMessage
+    _value: Booth Check has been interrupted.
+  - _key: Vket_ControlPanel.BoothCheckFunc.NotFoundFolder
+    _value: "Failed to find the Submission folder. \r\nDo you wish to check the currently
+      opened Scene?"
+  - _key: Vket_ControlPanel.BoothCheckFunc.NotFoundScene
+    _value: Failed to find the Scene.
+  - _key: Vket_ControlPanel.BuildSizeCheckFunc.SceneSaveConfirmationDialog
+    _value: 'The Scene has been modified.
+
+      Would you like to save and run
+      the scene?'
+  - _key: Vket_ControlPanel.BuildSizeCheckFunc.CancelDialogMessage
+    _value: Build Size Check has been interrupted.
+  - _key: Vket_ControlPanel.BuildSizeCheckFunc.OverSize
+    _value: The build size exceeds the limit.
+  - _key: Vket_ControlPanel.BuildSizeCheckFunc.Failed
+    _value: Build failed.
+  - _key: Vket_ControlPanel.BuildSizeCheckFunc.Compleate.PC
+    _value: PC Build completed!
+  - _key: Vket_ControlPanel.BuildSizeCheckFunc.Compleate.CrossPlatform
+    _value: Cross-Platform Build completed!
+  - _key: Vket_ControlPanel.SetPassCheckFunc.CancelDialogMessage
+    _value: SetPass Check has been interrupted.
+  - _key: Vket_ControlPanel.DraftButton_Click.OutsideSubmissionPeriod
+    _value: Submission Period is not in progress.
+  - _key: Vket_ControlPanel.DraftFunc.Interrupted
+    _value: Submission process has been interrupted.
+  - _key: Vket_ControlPanel.DraftButton_Click.WaitVRCCheck
+    _value: Awaiting completion of check inside VRChat...
+  - _key: Vket_ControlPanel.DraftFunc.RuleCheckFailed
+    _value: The Rule Check failed to run properly.
+  - _key: Vket_ControlPanel.DraftFunc.RuleCheckError
+    _value: Problem(s) have been detected while running Rule Check.
+  - _key: Vket_ControlPanel.DraftFunc.SizeCheckFailed
+    _value: Build Size Check failed.
+  - _key: Vket_ControlPanel.BakeCheckAndRun.LightBakeFailed
+    _value: Light Bake failed.
+  - _key: Vket_ControlPanel.LoginErrorMessage
+    _value: Login failed. Please contact Vket support and provide the displayed error
+      code.
+  - _key: Vket_ControlPanel.LoginError
+    _value: Login failed.
+  - _key: Vket_ControlPanel.UpdateCheck.RequestUpdate
+    _value: Please update before proceeding.
+  - _key: Vket_ControlPanel.EditorPlayCheck.CannotExecute
+    _value: The process cannot be executed while Editor is running.
+  - _key: Vket_ControlPanel.VRC_LocalTestLaunch.NotFoundVRCWorld
+    _value: "Failed to find VRC_SceneDescriptor.\r\n Please add a VRCWorld prefab
+      to the scene and try again."
+  - _key: Vket_ControlPanel.ExportAndUpload.InterruptedSubmission
+    _value: Submission interrupted due to an error.
+  - _key: Vket_ControlPanel.ExportAndUpload.FailedSubmission
+    _value: 'Submission failed.
+
+      Please check your submission data and try
+      again.'
+  - _key: Vket_ControlPanel.ExportAndUpload.CompleateSubmission
+    _value: 'Submission completed!
+
+      Please check your "Submission management
+      page" on the My Page on the official website.'
+  - _key: Vket_ControlPanel.EditorPlay.NotPlayEditor
+    _value: 'Editor is not in play mode.
+
+      Please retry the process again.'
+  - _key: Vket_ControlPanel.EditorPlay.NotFoundCircleID
+    _value: 'Failed to obtain CircleID.
+
+      Do you wish to run anyway? This might
+      cause checks to run unintentionally'
+  - _key: Vket_ControlPanel.EditorPlay.NotFoundBoothObject
+    _value: 'Booth object not found.
+
+      Please run a Booth Check to analyze
+      the issue.'
+  - _key: AssetUtility.ForceRebuild.OpenSceneFile
+    _value: Please open a Scene file.
+  - _key: UpdateUtility.UpdateCheck.Message
+    _value: 'The latest version of VketTools: "{0}" is now available.
+
+      Would
+      you like to update now?'
+  - _key: Vket_SequenceWindow.LightBakeCheck
+    _value: Light Bake Check
+  - _key: Vket_SequenceWindow.EvaluationVRC
+    _value: Check your Exhibition inside VRChat
+  - _key: Vket_SequenceWindow.RuleCheck
+    _value: Rule Check
+  - _key: Vket_SequenceWindow.BuildSizeCheck
+    _value: Build Size Check
+  - _key: Vket_SequenceWindow.TakeScreenshot
+    _value: Take a Screenshot
+  - _key: Vket_SequenceWindow.SetPassCheck
+    _value: SetPass Check
+  - _key: Vket_SequenceWindow.Upload
+    _value: Upload
+  - _key: Vket_SequenceWindow.PostUploadProcess
+    _value: Post-upload process
+  - _key: Vket_ControlPanel.EditorPlay.HopePreview
+    _value: I'd like my exhibition to be placed where it was during the preview phase
+  - _key: Vket_ControlPanel.EditorPlay.FormalSubmission
+    _value: This submission will be my fixed version for exhibition
+  - _key: Vket_ControlPanel.EditorPlay.ScreenshotAttention
+    _value: '<size=38>Caution</size> Please note that Vket may use this screenshot
+      for announcements and other purposes.
+
+      In addition, please make sure
+      that the entire exhibition is in the frame.'
+  - _key: Vket_ControlPanel.EditorPlay.ChangeThumbnail
+    _value: Change Thumbnail
+  - _key: Vket_ControlPanel.DraftButton_Click.CancelSubmission
+    _value: 'Only the Circle Leader can submit an exhibition.
+
+      Aborting Submission
+      process.'
+  - _key: Vket_ControlPanel.SubmissionRule
+    _value: Submission Rules
+  - _key: Vket_ControlPanel.DrawLoginInformation.SubmissionDeadline
+    _value: Submission Deadline (in JST)
+  - _key: Vket_ControlPanel.WaitAuthWindow.EnterAuthCode
+    _value: "Please enter the \u8A8D\u53EF\u30B3\u30FC\u30C9 / Authorization Code
+      as displayed."
+  - _key: Vket_ControlPanel.WaitAuthWindow.BackButton
+    _value: Return
+  - _key: Vket_ControlPanel.DrawHeader.MyPage
+    _value: My Page
+  - _key: Vket_ControlPanel.DrawWorldSelectContent.SelectWorldButton
+    _value: Begin Submission for this World
+  - _key: Vket_ControlPanel.ExportAndUpload.ErrorMessage
+    _value: 'Submission process has been completed with error(s).
+
+      Please
+      run a Rule Check and fix all errors.'
+  - _key: Vket_ControlPanel.SelectWindow.NotFoundCircle
+    _value: Failed to find a registered Exhibition Circle.
+  - _key: Vket_ControlPanel.SelectWindow.RequestLoginAgain
+    _value: Please register an Exhibition Circle on the Vket website and re-login
+      later.
+  - _key: Vket_ControlPanel.DrawFooter.BackWorldSelectButton
+    _value: Return and re-select world
+  - _key: Vket_ControlPanel.ChangeASTCButton
+    _value: "[(For Cross-Platform Worlds)] Auto-Convert textures in the submission
+      folder to ASTC 6\xD76 format"
+  - _key: Vket_ControlPanel.ChangeASTCButtonCompleateDialogTitle
+    _value: Texture Conversion to ASTC
+  - _key: Vket_ControlPanel.ChangeASTCButtonCompleateDialogMessage
+    _value: Conversion completed!
+  - _key: Vket_ControlPanel.ChangeASTCButtonCompleateDialogOKButton
+    _value: OK
+  - _key: Vket_ControlPanel.VketPrefabsButton
+    _value: List of VketPrefabs
+  - _key: Vket_ControlPanel.DrawWorldSelectContent.PC
+    _value: (PC Submission)
+  - _key: Vket_ControlPanel.DrawWorldSelectContent.CrossPlatform
+    _value: (Cross-Platform Submission)
+  - _key: Vket_ControlPanel.DrawWorldSelectContent.PCItem
+    _value: (PC Item Submission)
+  - _key: Vket_ControlPanel.DrawWorldSelectContent.CrossPlatformItem
+    _value: (Cross-Platform ItemSubmission)
+  - _key: Vket_ControlPanel.SubmissionMethod
+    _value: How to Submit
+  - _key: SubmissionMethodPopup.Message
+    _value: "1. Create a folder for submission by selecting \"Create a new Submission
+      Scene\". \r\n2.Open the submission scene. \r\n3. Create your scene according
+      to the \"Submission Rules\". \r\n4. Check if the scene passes the Booth Check,
+      Build Size Check, and SetPass Check. \r\n5. Submit your scene by selecting 
+      \"Submit Exhibition\"."
+  - _key: Vket_ControlPanel.DrawItemSetting.Title
+    _value: Item Submission Settings
+  - _key: Vket_ControlPanel.DrawItemSetting.DragDrop.FiledMessage
+    _value: Drag and drop the object you wish to submit.
+  - _key: Vket_ControlPanel.DrawItemSetting.DragDrop.Help
+    _value: The item will be placed automatically in the scene under the "Circle
+      ID object".
+  - _key: Vket_ControlPanel.DrawItemSetting.SelectItemType.Title
+    _value: Select Item type
+  - _key: Vket_ControlPanel.DrawItemSetting.SelectItemType.Help
+    _value: 'Default: Item will be simply displayed without gimmicks.
+
+      Pickup:
+      The item can be picked up.
+
+      Avatar: An avatar pedestal (Blueprint ID)
+      can be designated.'
+  - _key: Vket_ControlPanel.DrawItemSetting.SelectPedestal
+    _value: Select display pedestal
+  - _key: Vket_ControlPanel.DrawItemSetting.PedestalName1
+    _value: Basic Pedestal
+  - _key: Vket_ControlPanel.DrawItemSetting.PedestalName2
+    _value: Small Item Pedestal
+  - _key: Vket_ControlPanel.DrawToolButtons.OpenSubmissionSceneButton
+    _value: Open Submission Scene
+  - _key: Vket_ControlPanel.OpenSubmissionSceneButton_Click.ErrorDialog.Title
+    _value: Unable to open scene.
+  - _key: Vket_ControlPanel.OpenSubmissionSceneButton_Click.ErrorDialog.Message
+    _value: The submission scene cannot be found. Please create a submission scene.
+  - _key: Vket_ControlPanel.IsLoggedInVRCSDK
+    _value: Please login to the VRCSDK.
+  - _key: Vket_ControlPanel.IsExistVRCClient
+    _value: The path for VRChat is containing an error, or VRChat is not installed.
+      Please select [VRChat SDK/Show Control Panel] and check the Settings tab.
+  - _key: NetworkUtility.ServerErrorMessage
+    _value: A server error has occurred.
+  - _key: NetworkUtility.FailedLoginMessage
+    _value: Failed to login.
+  - _key: Vket_ControlPanel.StartSubmissionButton
+    _value: Begin Submission
+  - _key: Vket_ControlPanel.DrawFooter.ExportButton
+    _value: Export Submission Files
+  - _key: Vket_ControlPanel.BoothExportButton_Click.FailedExport.Title
+    _value: The submission folder cannot be found.
+  - _key: Vket_ControlPanel.BoothExportButton_Click.FailedExport.Message
+    _value: Please create a submission scene.
+  - _key: Vket_ControlPanel.OnGUI.SDKLoginMessage
+    _value: Please login to the VRChat SDK.
+  - _key: Vket_ControlPanel.OnGUI.AppPathError.Title
+    _value: The boot path for VRChat is not designated.
+  - _key: Vket_ControlPanel.OnGUI.AppPathError.Message
+    _value: Open the VRChat SDK's setting tab, and designate the path to VRChat.exe
+      in "Installed Client Path".
+  - _key: Vket_ControlPanel.OnGUI.NotOpenSDKPanel.Title
+    _value: The VRChat SDK control panel is not open. Please open the control panel
+      via "VRChat SDK/Show Control Panel".
+  - _key: Vket_ControlPanel.OnGUI.NotBuilderTab.Title
+    _value: The VRChat SDK's Builder tab is not open.
+  - _key: Vket_ControlPanel.OnGUI.NotBuilderTab.Message
+    _value: Please open the VRChat SDK Builder tab.
+  - _key: Vket_ControlPanel.LoginWindow.InputCircleID
+    _value: '*Enter the circle ID.'
+  - _key: Vket_ControlPanel.BoothCheckButton_Click.Cancel.Title
+    _value: Cancel
+  - _key: Vket_ControlPanel.BoothCheckButton_Click.Cancel.Message
+    _value: The Booth Check has been canceled.
+  - _key: Vket_ControlPanel.BuildSizeCheckButton_Click.Cancel.Title
+    _value: Cancel
+  - _key: Vket_ControlPanel.BuildSizeCheckButton_Click.Cancel.Message
+    _value: The Build Size Check has been canceled.
+  - _key: Vket_ControlPanel.SetPassCheckButton_Click.Cancel.Title
+    _value: Cancel
+  - _key: Vket_ControlPanel.SetPassCheckButton_Click.Cancel.Message
+    _value: The SetPass Check has been canceled.
+  - _key: Vket_ControlPanel.DraftSequenceWindow.Title
+    _value: Submission in progress
+  - _key: Vket_ControlPanel.DraftSequenceWindow.Help
+    _value: "During the submission process, please do not close the following windows:
+      \r\n[VRChat SDK], [VketTools], [Game]"
+  - _key: Vket_ControlPanel.DraftSequenceWindow.Build.Message
+    _value: Test setup in progress. Please wait for a moment!
+  - _key: Vket_ControlPanel.DraftSequenceWindow.Build.Confirm
+    _value: Displaying confirmation dialog...
+  - _key: Vket_ControlPanel.DraftSequenceWindow.CancelButton
+    _value: Cancel Submission
+  - _key: Vket_ControlPanel.SetPassCheckButtonIntermediateProcessingTask.Cancel.Title
+    _value: Cancel
+  - _key: Vket_ControlPanel.SetPassCheckButtonIntermediateProcessingTask.Cancel.Message
+    _value: The SetPass Check has been canceled.
+  - _key: Vket_ControlPanel.DraftTask.Cancel.Title
+    _value: Cancel
+  - _key: Vket_ControlPanel.DraftTask.Cancel.Message
+    _value: The submission process has been canceled.
+  - _key: Vket_ControlPanel.BuildAndTestWorld.BuildFaild.Message
+    _value: Build has failed. Submission process will be aborted.
+  - _key: Vket_ControlPanel.OnPlayModeStateChanged.PlayModeNotification.Message
+    _value: As the submitted exhibition will be played using an exclusive program
+      created by Vket, functionality shown within the Unity Editor cannot be guaranteed
+      to be consistent at the actual exhibition.
+  - _key: Vket_ControlPanel.OnPlayModeStateChanged.PlayModeNotification.NotDisplayNext
+    _value: Don't show this message again
+  - _key: Vket_BlinderToolbar.Message
+    _value: Processing...
+  - _key: Vket_ControlPanel.OnGUI.NotBuilderTab.OpenButton
+    _value: Open the Builder tab
+  - _key: Vket_ControlPanel.VRCCheckButton_Click.Cancel.Title
+    _value: Cancel
+  - _key: Vket_ControlPanel.VRCCheckButton_Click.Cancel.Message
+    _value: The VRChat check has been canceled.
+  - _key: Vket_ControlPanel.VRCCheckButton
+    _value: Check in VRChat
+  - _key: Vket_ControlPanel.DrawItemSetting.NotFoundScene.Help
+    _value: 'The item submission scene could not be found.
+
+      Please create
+      a submission scene.'
+  - _key: Vket_ControlPanel.BakeCheckAndRun.NotSaveScene.Message
+    _value: The scene file has not been saved.
+  - _key: Vket_ControlPanel.DrawItemSetting.BordSetting.Title
+    _value: Caption Board Settings
+  - _key: Vket_ControlPanel.DrawItemSetting.BordSetting.ItemName
+    _value: Product Name
+  - _key: Vket_ControlPanel.DrawItemSetting.BordSetting.ItemPrice
+    _value: Price
+  - _key: Vket_ControlPanel.DrawItemSetting.BordSetting.Help
+    _value: Set the product name and price to display on the caption board.
+  - _key: Vket_ControlPanel.OnGUI.ErrorDataPathMessage
+    _value: "The current project folder \"{0}\" cannot be used.\r\nPlease remove
+      any multi-byte characters (e.g., Japanese, Chinese, or Korean) from the folder
+      name.\r\n\r\n\u73FE\u5728\u306E\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\u30D5\u30A9\u30EB\u30C0\u300C{0}\u300D\u306F\u4F7F\u7528\u3067\u304D\u307E\u305B\u3093\u3002\r\n\u65E5\u672C\u8A9E\u7B49\u306E\u30DE\u30EB\u30C1\u30D0\u30A4\u30C8\u6587\u5B57\u304C\u542B\u307E\u308C\u306A\u3044\u3088\u3046\u306B\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: Vket_ControlPanel.DrawItemSetting.BordSetting.Thumbnail
+    _value: Thumbnail
+  - _key: Vket_ControlPanel.DrawItemSetting.VketURLOpener.Url
+    _value: Product page URL
+  - _key: Vket_ControlPanel.DrawItemSetting.VketURLOpener.Help
+    _value: By setting a URL, the designated webpage will open in the browser.
+  - _key: Vket_ControlPanel.DrawItemSetting.VketURLOpener.OpenButton
+    _value: Open URL
+  - _key: Vket_ControlPanel.DrawFooter.NotFoundItemInfo
+    _value: "The essential settings file for Item Submission [Assets/{0}/Config/VketItemInfo.asset]
+      is not found.\r\n Please delete the submission folder, and recreate the submission
+      scene by pressing the \"Create Submission Scene.\" "
+  - _key: Vket_ControlPanel.BoothExportButton_Click.ErrorDialog.Title
+    _value: A valid submission scene does not exist
+  - _key: Vket_ControlPanel.BoothExportButton_Click.ErrorDialog.Message
+    _value: A valid submission scene does not exist. Please create a new submission
+      scene.
+  - _key: Vket_ControlPanel.DrawDraftButton.Message
+    _value: I agree to the Terms for Event Exhibition, and guarantee that the submitted
+      content does not contain depictions of bleeding, sensitive material, or anything
+      that may violate public order and morals.
+  - _key: Vket_ControlPanel.DrawAvatarSetting.Title
+    _value: Avatar Settings
+  - _key: Vket_ControlPanel.DrawAvatarSetting.UsePedestal
+    _value: Use a display pedestal
+  - _key: Vket_ControlPanel.DrawAvatarSetting.Caution
+    _value: If the avatar registered to the Avatar Pedestal is not Cross-Platform
+      compatible on event beginning, the Avatar Pedestal will be removed.
+  - _key: Vket_ControlPanel.DrawAvatarSetting.NotFoundScene.Help
+    _value: 'The submission scene for the avatar could not be found.
+
+      Please
+      create a submission scene.'
+  - _key: VketAvatarInfo.Header
+    _value: 'Avatar : {0}'
+  - _key: VketAvatarInfo.AvatarName
+    _value: Avatar Name
+  - _key: VketAvatarInfo.Price
+    _value: Price
+  - _key: VketAvatarInfo.Url
+    _value: URL
+  - _key: VketAvatarInfo.VaridateUrl.HelpBox
+    _value: 'The only domains that can be allocated as the product webpage URL are
+      as follows:'
+  - _key: Vket_ControlPanel.DrawTemplateOuterFrame.Popup
+    _value: Show Outer-frame Template
+  - _key: Vket_ControlPanel.DrawTemplateOuterFrame.Help
+    _value: 'Enabling this will display the outer-frame template for Space Exhibitions.
+
+      Note:
+      This template is for display purposes within VketTools only and will not be
+      reflected in the final setup.
+
+      As an outer-frame created by Vket staff
+      will be used on the actual exhibition, please make sure to check the Preview
+      World.'
+  - _key: Vket_ControlPanel.VketAvatarInfoList.Header
+    _value: Avatar Info Board Settings
+  - _key: Vket_ControlPanel.DrawAvatarSetting.BordInfoHelpBox
+    _value: "Up to 3 boards can be displayed. \r\n The number of displayed boards
+      can be changed by pressing the [+] and [-]  buttons on the bottom right."
+  - _key: Vket_ControlPanel.DrawWorldSelectContent.PCAvatar
+    _value: (PC Avatar Submission)
+  - _key: Vket_ControlPanel.DrawWorldSelectContent.CrossPlatformAvatar
+    _value: (Cross-Platform AvatarSubmission)
+  - _key: VketAvatarInfo.ShopName
+    _value: Shop Name
+  - _key: VketItemInfo.VaridateUrl.HelpBox
+    _value: 'The only domains that can be allocated as the product webpage URL are
+      as follows:'

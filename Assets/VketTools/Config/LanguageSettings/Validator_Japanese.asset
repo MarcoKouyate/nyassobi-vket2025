@@ -1,0 +1,643 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09067ea199f97fc459a3b251c082b626, type: 3}
+  m_Name: Validator_Japanese
+  m_EditorClassIdentifier: 
+  _tag: Validator
+  _systemLanguage: 22
+  _language:
+  - _key: AnimationClipRule.AudioEnable.Message
+    _value: "AudioSource\u306EEnabled\u306F\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u304B\u3089\u64CD\u4F5C\u3067\u304D\u307E\u305B\u3093\u3002"
+  - _key: AnimationClipRule.AudioEnable.Solution
+    _value: "AudioSource\u306EEnabled\u30AD\u30FC\u3092\u524A\u9664\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: DisabledDirectiveRule.Use
+    _value: "{0}\u306F\u4F7F\u7528\u3057\u306A\u3044\u3053\u3068"
+  - _key: DisabledDirectiveRule.Use.Solution
+    _value: "\u4F7F\u7528\u7981\u6B62\u3055\u308C\u305F\u30C7\u30A3\u30EC\u30AF\u30C6\u30A3\u30D6\u3092\u4F7F\u7528\u3057\u306A\u3044\u3067\u304F\u3060\u3055\u3044"
+  - _key: FBXImportRule.NonExtract.Message
+    _value: "Location\u306FUse Embedded Materials\u306B\u8A2D\u5B9A\u3059\u308B\u3053\u3068"
+  - _key: FBXImportRule.NonExtract.Solution
+    _value: "Materials\u30BF\u30D6\u306ELocation\u3092Use Embedded Materials\u306B\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: ShaderDeclarationMethodRule.Message
+    _value: "\u30B7\u30A7\u30FC\u30C0\u30FC\u306E\u975E\u63A8\u5968\u306A\u5B9A\u7FA9\u3092\u691C\u77E5\u3057\u307E\u3057\u305F\u3002\u5BFE\u8C61:{0},
+      \u6587\u5B57\u5217:{1}"
+  - _key: ShaderDeclarationMethodRule.Solution
+    _value: "\u3053\u306E\u30B7\u30A7\u30FC\u30C0\u30FC\u306F\u63CF\u753B\u306B\u554F\u984C\u304C\u8D77\u3053\u308B\u53EF\u80FD\u6027\u304C\u3042\u308A\u307E\u3059\u3002\n\u5165\u7A3F\u5F8C\u3001Android\u30D3\u30EB\u30C9\u3067\u306E\u78BA\u8A8D\u3092\u63A8\u5968\u3057\u307E\u3059\u3002"
+  - _key: ShaderNameBlockRule
+    _value: "\u3053\u306E\u540D\u524D\u306E\u30B7\u30A7\u30FC\u30C0\u30FC\u306F\u5165\u7A3F\u3067\u304D\u307E\u305B\u3093"
+  - _key: ShaderNameBlockRule.Solution
+    _value: "\u30B7\u30A7\u30FC\u30C0\u30FC\u306E\u540D\u524D\u3092\u5909\u66F4\u3057\u3066\u304F\u3060\u3055\u3044"
+  - _key: VketCrossPlatformShaderRule.DisallowedShaderInFolder.Message
+    _value: "\u4F7F\u7528\u3067\u304D\u306A\u3044\u30B7\u30A7\u30FC\u30C0\u30FC\u300C{0}\u300D\u304C\u5165\u7A3F\u30D5\u30A9\u30EB\u30C0\u306B\u542B\u307E\u308C\u3066\u3044\u307E\u3059\u3002"
+  - _key: VketCrossPlatformShaderRule.DisallowedShaderInFolder.Solution
+    _value: "\u5165\u7A3F\u30D5\u30A9\u30EB\u30C0\u304B\u3089\u5BFE\u8C61\u306E\u30B7\u30A7\u30FC\u30C0\u30FC\u3092\u9664\u3044\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: VketCrossPlatformShaderRule.UseCustomShader.Message
+    _value: "\u30AB\u30B9\u30BF\u30E0\u30B7\u30A7\u30FC\u30C0\u30FC\u300C{0}\u300D\u304C\u4F7F\u7528\u3055\u308C\u3066\u3044\u307E\u3059\u3002"
+  - _key: VketCrossPlatformShaderRule.UseCustomShader.Solution
+    _value: "\u4E0B\u898B\u30EF\u30FC\u30EB\u30C9\u3067\u30DE\u30C6\u30EA\u30A2\u30EB\u306B\u7570\u5E38\u304C\u7121\u3044\u304B\u78BA\u8A8D\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: DisallowEditorOnlyTagRule.Disallow
+    _value: "EditorOnly\u306ETag\u306F\u8A31\u53EF\u3055\u308C\u3066\u3044\u307E\u305B\u3093\u3002"
+  - _key: DisallowEditorOnlyTagRule.Disallow.Solution
+    _value: "\u5225\u306ETag\u306B\u5909\u66F4\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: DynamicRule.Solution
+    _value: "Dynamic\u914D\u4E0B\u306EGame Object\u306FStatic\u306E\u30C1\u30A7\u30C3\u30AF\u3092\u5916\u3057\u3066\u304F\u3060\u3055\u3044"
+  - _key: BoothBoundsRule.Exceeded
+    _value: "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u304C\u30D6\u30FC\u30B9\u30B5\u30A4\u30BA\u5236\u9650{0}\u306E\u5916\u306B\u51FA\u3066\u3044\u307E\u3059\u3002\u5236\u9650={1},
+      \u5BFE\u8C61={2}, \u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306E\u7A2E\u985E={3}"
+  - _key: VketShaderBlacklistRule.DisallowedShaderInFolder
+    _value: "\u4F7F\u7528\u3067\u304D\u306A\u3044\u30B7\u30A7\u30FC\u30C0\u30FC\u300C{0}\u300D\u304C\u5165\u7A3F\u30D5\u30A9\u30EB\u30C0\u306B\u542B\u307E\u308C\u3066\u3044\u307E\u3059\u3002"
+  - _key: VketShaderBlacklistRule.DisallowedShaderInFolder.Solution
+    _value: "\u5165\u7A3F\u30D5\u30A9\u30EB\u30C0\u304B\u3089\u5BFE\u8C61\u306E\u30B7\u30A7\u30FC\u30C0\u30FC\u3092\u9664\u3044\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: VketShaderBlacklistRule.DisallowedShaderInGameObject
+    _value: "\u4F7F\u7528\u3067\u304D\u306A\u3044\u30B7\u30A7\u30FC\u30C0\u30FC\u300C{0}\u300D\u304C\u30B7\u30FC\u30F3\u306B\u542B\u307E\u308C\u3066\u3044\u307E\u3059\u3002"
+  - _key: VketShaderBlacklistRule.DisallowedShaderInGameObject.Solution
+    _value: "\u4F7F\u7528\u3067\u304D\u306A\u3044\u30B7\u30A7\u30FC\u30C0\u30FC\u306E\u30DE\u30C6\u30EA\u30A2\u30EB\u3092\u5909\u66F4\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: AudioSourceRule.MaxDistance.Solution
+    _value: "Audio Source\u306EMaxDistance\u306F{0}\u4EE5\u4E0B\u306B\u8A2D\u5B9A\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: AudioSourceRule.MaxDistance.Solution.VRCSpatialAudioSource
+    _value: "VRCSpatialAudioSource\u306EFar\u306F{0}\u4EE5\u4E0B\u306B\u8A2D\u5B9A\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: AudioSourceRule.MaxDistance.Solution.Reverb
+    _value: "Audio Reverb Zone\u306EMaxDistance\u306F{0}\u4EE5\u4E0B\u306B\u8A2D\u5B9A\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: AudioSourceRule.DefaultDisabled
+    _value: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8\u306F\u521D\u671F\u72B6\u614B\u3067Disabled\u306B\u3059\u308B\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059\u3002"
+  - _key: AudioSourceRule.DefaultDisabled.Solution
+    _value: "AudioSource\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8\u306E\u30C1\u30A7\u30C3\u30AF\u3092\u5916\u3057\u3066\u304A\u304D\u3001Udon\u3084CyanTrigger\u306A\u3069\u3067\u6709\u52B9\u5316\u3059\u308B\u3088\u3046\u306B\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: AudioSourceRuleRule.SpatialBlend
+    _value: "AudioSource\u306FSpatial Blend\u30921.0\u306B\u8A2D\u5B9A\u3057\u3066\u304F\u3060\u3055\u3044"
+  - _key: DynamicBoneRule.DistantDisabled
+    _value: "DynamicBone\u306EDistantDisable\u304C\u7121\u52B9\u3067\u3059\u3002"
+  - _key: DynamicBoneRule.DistantDisabled.Solution
+    _value: "DynamicBone\u306EDistantDisable\u3092\u6709\u52B9\u306B\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: LightMapOverlapsRule.Message
+    _value: "ContributeGI\u306B\u30C1\u30A7\u30C3\u30AF\u304C\u5165\u3063\u3066\u3044\u308B\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8(ScalesInLightmap\u306E\u5024\u304C0\u306E\u3082\u306E\u306F\u9664\u304F)\u306E\u4E2D\u3067\u3001\u30E9\u30A4\u30C8\u30DE\u30C3\u30D7\u304C\u30AA\u30FC\u30D0\u30FC\u30E9\u30C3\u30D7\u72B6\u614B\u306B\u306A\u3063\u3066\u3044\u308B\u3082\u306E\u306F\u30E9\u30A4\u30C8\u30D9\u30A4\u30AF\u306E\u54C1\u8CEA\u306B\u5F71\u97FF\u304C\u3042\u308B\u305F\u3081\u975E\u63A8\u5968\u3067\u3059\u3002"
+  - _key: LightMapOverlapsRule.LightmapStaticMeshAssetShouldGenerateLightmap.Solution
+    _value: "\u3053\u306E\u307E\u307E\u3067\u3082\u5165\u7A3F\u53EF\u80FD\u3067\u3059\u304C\u3001\u53EF\u80FD\u3067\u3042\u308C\u3070\u8A2D\u5B9A\u306E\u898B\u76F4\u3057\u3092\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: ParticleSystemForceFieldMaxDistanceRule.Solution
+    _value: "ParticleSystemForceField\u306E\u7BC4\u56F2\u306F{0}\u4EE5\u5185\u306B\u53CE\u307E\u308B\u3088\u3046\u306B\u3057\u3066\u304F\u3060\u3055\u3044\u3002\u5BFE\u8C61={1}"
+  - _key: ParticleSystemForceFieldRule.ShapeError
+    _value: "ParticleSystemForceField\u306EShape\u306FBox\u307E\u305F\u306FSphere\u3092\u4F7F\u7528\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: ParticleSystemRule.MaxDistance.Solution
+    _value: "ParticleSystem\u306EBounds(\u7BC4\u56F2)\u306F{0}\u4EE5\u5185\u306B\u53CE\u307E\u308B\u3088\u3046\u306B\u3057\u3066\u304F\u3060\u3055\u3044\u3002\u5BFE\u8C61={1}"
+  - _key: ParticleSystemShapeModuleRule.ShapeErrorMessage
+    _value: "ParticleSystem\u306EShape\u30E2\u30B8\u30E5\u30FC\u30EB\u306EShape\u306FMeshRenderer\u4EE5\u5916\u3092\u4F7F\u7528\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: PostProcessingRule.AmbientOcclusion
+    _value: "AmbientOcclusion\u306F\u4F7F\u7528\u3057\u306A\u3044\u3053\u3068"
+  - _key: PostProcessingRule.DepthOfField
+    _value: "DepthOfField\u306F\u4F7F\u7528\u3057\u306A\u3044\u3053\u3068"
+  - _key: PostProcessingRule.IsGlobal
+    _value: "IsGlobal\u306F\u7121\u52B9\u306B\u3059\u308B\u3053\u3068"
+  - _key: PostProcessingRule.LensDistortion
+    _value: "LensDistortion\u306F\u4F7F\u7528\u3057\u306A\u3044\u3053\u3068"
+  - _key: PostProcessingRule.MotionBlur
+    _value: "MotionBlur\u306F\u4F7F\u7528\u3057\u306A\u3044\u3053\u3068"
+  - _key: PostProcessingRule.ScreenSpaceReflections
+    _value: "ScreenSpaceReflections\u306F\u4F7F\u7528\u3057\u306A\u3044\u3053\u3068"
+  - _key: RenderTextureMaxCountRule.Exceeded
+    _value: "RenderTexture\u306E\u679A\u6570\u5236\u9650\u3092\u8D85\u3048\u3066\u3044\u307E\u3059\u3002(\u6700\u5927{0}\u679A)"
+  - _key: RenderTextureMaxCountRule.Exceeded.Solution
+    _value: "RenderTexture\u306E\u679A\u6570\u3092\u6E1B\u3089\u3057\u3066\u4E0B\u3055\u3044\u3002"
+  - _key: RenderTextureMaxSizeRule.Exceeded
+    _value: "RenderTexture\u306E\u30B5\u30A4\u30BA\u5236\u9650\u3092\u8D85\u3048\u3066\u3044\u307E\u3059\u3002(\u6700\u5927{0}
+      x {1})"
+  - _key: RenderTextureMaxSizeRule.Exceeded.Solution
+    _value: "RenderTexture\u306E\u30B5\u30A4\u30BA\u3092\u5236\u9650\u5185\u306B\u3057\u3066\u4E0B\u3055\u3044\u3002"
+  - _key: SceneComponentLimitRule.Overuse
+    _value: "{0}\u306E\u4F7F\u7528\u6570\u304C{1}\u500B\u3092\u8D85\u3048\u3066\u3044\u307E\u3059\u3002({2}\u500B)"
+  - _key: SceneComponentLimitRule.Overuse.Solution
+    _value: "\u4F7F\u7528\u500B\u6570\u3092\u6E1B\u3089\u3057\u3066\u4E0B\u3055\u3044\u3002"
+  - _key: AssetNamingRule.UnauthorizedTextDetected
+    _value: "\u30A2\u30BB\u30C3\u30C8\u540D({0})\u306B\u4F7F\u7528\u7981\u6B62\u6587\u5B57({1})\u304C\u542B\u307E\u308C\u3066\u3044\u307E\u3059\u3002"
+  - _key: AssetPathLengthRule.Overlength
+    _value: "\u30A2\u30BB\u30C3\u30C8\u306E\u30D1\u30B9\u304C\u9577\u3059\u304E\u307E\u3059\u3002\uFF08\u5236\u9650={0},
+      \u8D85\u904E={1}, \u30D1\u30B9={2}\uFF09"
+  - _key: AssetTypeLimitRule.Overuse
+    _value: "{0}\u306E\u4F7F\u7528\u6570\u304C{1}\u500B\u3092\u8D85\u3048\u3066\u3044\u307E\u3059\u3002({2}\u500B)"
+  - _key: AssetTypeLimitRule.Overuse.Solution
+    _value: "\u4F7F\u7528\u500B\u6570\u3092\u6E1B\u3089\u3059\u304B\u3001\u516C\u5F0F\u304B\u3089\u63D0\u4F9B\u3055\u308C\u3066\u3044\u308B{0}\u3092\u4F7F\u7528\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: ExistInSubmitFolderRule.HasOutOfPackageReference
+    _value: "\u5165\u7A3F\u30D5\u30A9\u30EB\u30C0\u5916\u306E\u30A2\u30BB\u30C3\u30C8\uFF08{0}\uFF09\u3092\u53C2\u7167\u3057\u3066\u3044\u307E\u3059\u3002"
+  - _key: ExistInSubmitFolderRule.HasOutOfPackageReference.Solution
+    _value: "\u5BFE\u8C61\u30A2\u30BB\u30C3\u30C8\u304C\u4E0D\u8981\u3068\u5224\u65AD\u3055\u308C\u308B\u5834\u5408\u306F\u53D6\u308A\u9664\u304D\u3001\u305D\u3046\u3067\u306A\u3044\u5834\u5408\u306F\u5165\u7A3F\u30D5\u30A9\u30EB\u30C0\u5185\u306B\u79FB\u52D5\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: ExistInSubmitFolderRule.HasOutOfPackageReference.SolutionURL
+    _value: 
+  - _key: ExistInSubmitFolderRule.AssetOutOfPackage
+    _value: "\u30A2\u30BB\u30C3\u30C8{0}\u304C\u5165\u7A3F\u30D5\u30A9\u30EB\u30C0\u5185\u306B\u542B\u307E\u308C\u3066\u3044\u307E\u305B\u3093\u3002"
+  - _key: ExistInSubmitFolderRule.AssetOutOfPackage.Solution
+    _value: "\u5165\u7A3F\u3059\u308B\u30A2\u30BB\u30C3\u30C8\u306F(\u904B\u55B6\u304B\u3089\u914D\u5E03\u3055\u308C\u305F\u30A2\u30BB\u30C3\u30C8\u3092\u9664\u3044\u3066)\u3059\u3079\u3066Assets\u30D5\u30A9\u30EB\u30C0\u76F4\u4E0B\u306E\u300C\u51FA\u5C55\u8005ID\u300D\u30D5\u30A9\u30EB\u30C0\u4EE5\u4E0B\u306B\u914D\u7F6E\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: Booth.ErrorShaderRule.noMaterialError
+    _value: "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306ERenderer\u306B\u30DE\u30C6\u30EA\u30A2\u30EB\u306E\u53C2\u7167\u304C\u3042\u308A\u307E\u305B\u3093\u3002"
+  - _key: Booth.ErrorShaderRule.shaderError
+    _value: "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u3067\u30B7\u30A7\u30FC\u30C0\u30FC\u30A8\u30E9\u30FC\u304C\u691C\u51FA\u3055\u308C\u307E\u3057\u305F\u3002"
+  - _key: Booth.ErrorShaderRule.shaderReferenceError
+    _value: "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306E\u30DE\u30C6\u30EA\u30A2\u30EB\u3067\u6B63\u3057\u3044\u30B7\u30A7\u30FC\u30C0\u30FC\u304C\u53C2\u7167\u3055\u308C\u3066\u3044\u307E\u305B\u3093\u3002"
+  - _key: ExhibitStructureRule.NotInitialPosition
+    _value: "\u30EB\u30FC\u30C8\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u304C\u539F\u70B9\u304B\u3089\u30BA\u30EC\u3066\u3044\u307E\u3059\u3002"
+  - _key: ExhibitStructureRule.NotInitialPosition.Solution
+    _value: "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306EPosition\u3092(0, 0, 0)\u306B\u8A2D\u5B9A\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: ExhibitStructureRule.NotInitialPosition.SolutionURL
+    _value: 
+  - _key: ExhibitStructureRule.NotInitialRotation
+    _value: "\u30EB\u30FC\u30C8\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u304C\u56DE\u8EE2\u3057\u3066\u3044\u307E\u3059\u3002"
+  - _key: ExhibitStructureRule.NotInitialRotation.Solution
+    _value: "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306ERotation\u3092(0, 0, 0)\u306B\u8A2D\u5B9A\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: ExhibitStructureRule.NotInitialRotation.SolutionURL
+    _value: 
+  - _key: ExhibitStructureRule.NotInitialScale
+    _value: "\u30EB\u30FC\u30C8\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306E\u30B9\u30B1\u30FC\u30EB\u304C\u5909\u5316\u3057\u3066\u3044\u307E\u3059\u3002"
+  - _key: ExhibitStructureRule.NotInitialScale.Solution
+    _value: "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306EScale\u3092(1, 1, 1)\u306B\u8A2D\u5B9A\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: ExhibitStructureRule.NotInitialScale.SolutionURL
+    _value: 
+  - _key: ExhibitStructureRule.RootObjectNotFound
+    _value: "{0}\u30EB\u30FC\u30C8\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u304C\u5B58\u5728\u3057\u307E\u305B\u3093\u3002"
+  - _key: ExhibitStructureRule.RootObjectNotFound.Solution
+    _value: "\u51FA\u5C55\u7269\u30EB\u30FC\u30C8\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u76F4\u4E0B\u306B\u3001\u300C{0}\u300D\u3068\u3044\u3046\u540D\u524D\u306E\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u3092\u4F5C\u6210\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: ExhibitStructureRule.UnauthorizedComponent
+    _value: "{0}\u30EB\u30FC\u30C8\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306B\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8\u304C\u30A2\u30BF\u30C3\u30C1\u3055\u308C\u3066\u3044\u307E\u3059\u3002"
+  - _key: ExhibitStructureRule.UnauthorizedComponent.Solution
+    _value: "{0}\u30EB\u30FC\u30C8\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306B\u306FTransform\u4EE5\u5916\u306E\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8\u3092\u30A2\u30BF\u30C3\u30C1\u3057\u306A\u3044\u3067\u304F\u3060\u3055\u3044\u3002"
+  - _key: ExhibitStructureRule.UnauthorizedObject
+    _value: "\u51FA\u5C55\u7269\u30EB\u30FC\u30C8\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u76F4\u4E0B\u306B\u8A31\u53EF\u3055\u308C\u3066\u3044\u306A\u3044\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u304C\u5B58\u5728\u3057\u307E\u3059\u3002"
+  - _key: ExhibitStructureRule.UnauthorizedObject.Solution
+    _value: "\u51FA\u5C55\u7269\u30EB\u30FC\u30C8\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u76F4\u4E0B\u306B\u306F\u300CDynamic\u300D\u300CStatic\u300D\u3068\u3044\u3046\u540D\u524D\u306E\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u3092\u54041\u3064\u305A\u3064\u914D\u7F6E\u3057\u3001\u4ED6\u306E\u5168\u3066\u306E\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306F\u305D\u306E\u4E2D\u306B\u5165\u308C\u3066\u4E0B\u3055\u3044\u3002"
+  - _key: SceneStructureRule.UnrelatedRootObjectDetected
+    _value: "\u5165\u7A3F\u5BFE\u8C61\u7269\u53CA\u3073\u30B5\u30DD\u30FC\u30C8\u7528\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u4EE5\u5916\u306E\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u304C\u30B7\u30FC\u30F3\u306B\u914D\u7F6E\u3055\u308C\u3066\u3044\u307E\u3059\u3002"
+  - _key: SceneStructureRule.UnrelatedRootObjectDetected.Solution
+    _value: "\u5BFE\u8C61\u304C\u5165\u7A3F\u7269\u3067\u3042\u308B\u5834\u5408\u306F\u30EB\u30FC\u30C8\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\uFF08\u30B7\u30FC\u30F3\u540D\u3068\u540C\u540D\u306EGameObject\uFF09\u5185\u306B\u914D\u7F6E\u3057\u3066\u304F\u3060\u3055\u3044\u3002\n\u5BFE\u8C61\u304C\u5165\u7A3F\u7269\u3067\u306A\u3044\u5834\u5408\u306F\u691C\u8A3C\u524D\u306B\u524A\u9664\u3057\u3066\u4E0B\u3055\u3044\u3002"
+  - _key: SceneStructureRule.UnrelatedRootObjectDetected.SolutionURL
+    _value: 
+  - _key: SceneStructureRule.UnrelatedSceneDetected
+    _value: "\u5165\u7A3F\u5BFE\u8C61\u5916\u306E\u30B7\u30FC\u30F3\u304C\u958B\u304B\u308C\u3066\u3044\u307E\u3059\u3002"
+  - _key: SceneStructureRule.UnrelatedSceneDetected.Solution
+    _value: "\u5165\u7A3F\u5BFE\u8C61\u5916\u306E\u30B7\u30FC\u30F3\u3092\u9589\u3058\u308B\u304B\u3001Unload\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: SceneStructureRule.UnrelatedSceneDetected.SolutionURL
+    _value: 
+  - _key: Booth.ShaderWhiteListRule.DisallowedShader
+    _value: "\u30B7\u30A7\u30FC\u30C0\u30FC\u300C{0}\u300D\u306E\u4F7F\u7528\u306F\u8A31\u53EF\u3055\u308C\u3066\u3044\u307E\u305B\u3093\u3002"
+  - _key: Booth.ShaderWhiteListRule.MismatchGUID
+    _value: "\u30B7\u30A7\u30FC\u30C0\u30FC\u300C{0}\u300D\u306EGUID\u300C{1}\u300D\u304C\u300C{2}\u300D\u3068\u4E00\u81F4\u3057\u307E\u305B\u3093\u3002"
+  - _key: StaticFlagRule.ItemStaticSet
+    _value: "\u5168\u3066\u306EStatic\u306F\u7121\u52B9\u306B\u3057\u306A\u3051\u308C\u3070\u306A\u308A\u307E\u305B\u3093\u3002"
+  - _key: StaticFlagRule.ItemStaticSet.Solution
+    _value: "Static\u8A2D\u5B9A\u3092\u300CNothing\u300D\u306B\u5909\u66F4\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: StaticFlagRule.LightmapStaticMeshAssetShouldGenerateLightmap
+    _value: "Contribute GI\u3092\u8A2D\u5B9A\u3057\u305F3D\u30E2\u30C7\u30EB\u306FImportSettings\u3067Generate
+      Lightmap UVs\u3092\u6709\u52B9\u306B\u3059\u308B\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059\u3002"
+  - _key: StaticFlagRule.LightmapStaticMeshAssetShouldGenerateLightmap.Solution
+    _value: 
+  - _key: StaticFlagRule.LightmapStaticMeshAssetShouldGenerateLightmap.SolutionURL
+    _value: 
+  - _key: StaticFlagRule.OccluderStaticNotAllowed
+    _value: "OccluderStatic\u3092\u7121\u52B9\u306B\u3057\u3066\u4E0B\u3055\u3044\u3002"
+  - _key: StaticFlagRule.OccludeeStaticNotSet
+    _value: "Static\u8A2D\u5B9A\u306EOccludeeStatic\u304C\u6709\u52B9\u306B\u306A\u3063\u3066\u3044\u307E\u305B\u3093\u3002"
+  - _key: StaticFlagRule.OccludeeStaticNotSet.Solution
+    _value: "\u5FC5\u305AOccludeeStatic\u3092\u6709\u52B9\u306B\u3057\u3066\u4E0B\u3055\u3044\u3002"
+  - _key: StaticFlagRule.LightmapStaticMeshShouldHaveUV2
+    _value: "Contribute GI\u3092\u8A2D\u5B9A\u3057\u305F\u30E1\u30C3\u30B7\u30E5\u306FUV2\u3092\u6301\u3064\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059\u3002"
+  - _key: StaticFlagRule.LightmapStaticMeshShouldHaveUV2.Solution
+    _value: "UV2\u3092\u751F\u6210\u3059\u308B\u304B\u3001Contribute GI\u3092\u5916\u3057\u3066\u304F\u3060\u3055\u3044"
+  - _key: StaticFlagRule.LightmapStaticMeshShouldHaveUV2.SolutionURL
+    _value: 
+  - _key: AnimationMakesMoveCollidersRule.WillMakesMove
+    _value: "\u89AA\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8({0})\u304C\u6301\u3064Animation\u306B\u3088\u3063\u3066Collider\u304C\u52D5\u304F\u53EF\u80FD\u6027\u304C\u3042\u308A\u307E\u3059\u3002"
+  - _key: AnimationMakesMoveCollidersRule.WillMakesMove.Solution
+    _value: "Collider\u3092\u524A\u9664\u3059\u308B\u304B\u3001\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u3092Animation\u306E\u5BFE\u8C61\u304B\u3089\u5916\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: CameraComponentRule.DefaultDisabled
+    _value: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8\u306F\u521D\u671F\u72B6\u614B\u3067Disabled\u306B\u3059\u308B\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059\u3002"
+  - _key: CameraComponentRule.DefaultDisabled.Solution
+    _value: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8\u306E\u30C1\u30A7\u30C3\u30AF\u3092\u5916\u3057\u3066\u304A\u304D\u3001\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3084VRC_Trigger\u306ESetComponentActive\u306A\u3069\u3067\u6709\u52B9\u5316\u3059\u308B\u3088\u3046\u306B\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: CameraComponentRule.NeedRenderTexture
+    _value: "TargetTexture\u306B\u306F\u5FC5\u305ARenderTexture\u3092\u6307\u5B9A\u3057\u3066\u304F\u3060\u3055\u3044"
+  - _key: LightConfigRule.DisableCastShadows
+    _value: "Cast Shadows\u304C\u7121\u52B9\u3067\u306F\u3042\u308A\u307E\u305B\u3093\u3002"
+  - _key: LightConfigRule.DisableCastShadows.Solution
+    _value: "Cast Shadows\u3092\u7121\u52B9\u306B\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: LightConfigRule.EnableCastShadows
+    _value: "Cast Shadows\u304C\u6709\u52B9\u3067\u306F\u3042\u308A\u307E\u305B\u3093\u3002"
+  - _key: LightConfigRule.EnableCastShadows.Solution
+    _value: "Cast Shadows\u3092\u6709\u52B9\u306B\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: LightConfigRule.OverAreaHeight
+    _value: "AreaLight\u306EHeight\u304C{0}\uFF5E{1}\u306E\u7BC4\u56F2\u3092\u8D85\u3048\u3066\u3044\u307E\u3059\u3002(\u8A2D\u5B9A\u5024\uFF1A{2})"
+  - _key: LightConfigRule.OverAreaHeight.Solution
+    _value: "Height\u3092\u7BC4\u56F2\u5185\u306B\u306A\u308B\u3088\u3046\u306B\u8A2D\u5B9A\u3057\u3066\u4E0B\u3055\u3044\u3002"
+  - _key: LightConfigRule.OverAreaRadius
+    _value: "AreaLight\u306ERadius\u304C{0}\uFF5E{1}\u306E\u7BC4\u56F2\u3092\u8D85\u3048\u3066\u3044\u307E\u3059\u3002(\u8A2D\u5B9A\u5024\uFF1A{2})"
+  - _key: LightConfigRule.OverAreaRadius.Solution
+    _value: "Radius\u3092\u7BC4\u56F2\u5185\u306B\u306A\u308B\u3088\u3046\u306B\u8A2D\u5B9A\u3057\u3066\u4E0B\u3055\u3044\u3002"
+  - _key: LightConfigRule.OverAreaWidth
+    _value: "AreaLight\u306EWidth\u304C{0}\uFF5E{1}\u306E\u7BC4\u56F2\u3092\u8D85\u3048\u3066\u3044\u307E\u3059\u3002(\u8A2D\u5B9A\u5024\uFF1A{2})"
+  - _key: LightConfigRule.OverAreaWidth.Solution
+    _value: "Width\u3092\u7BC4\u56F2\u5185\u306B\u306A\u308B\u3088\u3046\u306B\u8A2D\u5B9A\u3057\u3066\u4E0B\u3055\u3044\u3002"
+  - _key: LightConfigRule.OverIndirectMultiplier
+    _value: "{0}Light\u306EIndirect Multiplier\u304C{1}\uFF5E{2}\u306E\u7BC4\u56F2\u3092\u8D85\u3048\u3066\u3044\u307E\u3059\u3002(\u8A2D\u5B9A\u5024\uFF1A{3})"
+  - _key: LightConfigRule.OverIndirectMultiplier.Solution
+    _value: "Indirect Multiplier\u3092\u7BC4\u56F2\u5185\u306B\u306A\u308B\u3088\u3046\u306B\u8A2D\u5B9A\u3057\u3066\u4E0B\u3055\u3044\u3002"
+  - _key: LightConfigRule.OverIntensity
+    _value: "{0}Light\u306EIntensity\u304C{1}\uFF5E{2}\u306E\u7BC4\u56F2\u3092\u8D85\u3048\u3066\u3044\u307E\u3059\u3002(\u8A2D\u5B9A\u5024\uFF1A{3})"
+  - _key: LightConfigRule.OverIntensity.Solution
+    _value: "Intensity\u3092\u7BC4\u56F2\u5185\u306B\u306A\u308B\u3088\u3046\u306B\u8A2D\u5B9A\u3057\u3066\u4E0B\u3055\u3044\u3002"
+  - _key: LightConfigRule.OverRange
+    _value: "{0}Light\u306ERange\u304C{1}\uFF5E{2}\u306E\u7BC4\u56F2\u3092\u8D85\u3048\u3066\u3044\u307E\u3059\u3002(\u8A2D\u5B9A\u5024\uFF1A{3})"
+  - _key: LightConfigRule.OverRange.Solution
+    _value: "Range\u3092\u7BC4\u56F2\u5185\u306B\u306A\u308B\u3088\u3046\u306B\u8A2D\u5B9A\u3057\u3066\u4E0B\u3055\u3044\u3002"
+  - _key: LightConfigRule.UnauthorizedLightMode
+    _value: "{0}Light\u306EMode\u304C{1}\u4EE5\u5916\u306B\u8A2D\u5B9A\u3055\u308C\u3066\u3044\u307E\u3059\u3002({2})"
+  - _key: LightConfigRule.UnauthorizedLightMode.Solution
+    _value: "Mode\u3092{0}\u306B\u8A2D\u5B9A\u3057\u3066\u4E0B\u3055\u3044\u3002"
+  - _key: LightConfigRule.UnauthorizedLightType
+    _value: "{0}Light\u306F\u4F7F\u7528\u3067\u304D\u307E\u305B\u3093\u3002"
+  - _key: LightConfigRule.UnauthorizedLightType.Solution
+    _value: "\u524A\u9664\u3059\u308B\u304BType\u3092\u5909\u66F4\u3057\u3066\u4ED6\u306ELight\u3092\u4F7F\u7528\u3057\u3066\u4E0B\u3055\u3044\u3002"
+  - _key: LightConfigRule.UnauthorizedShadowType
+    _value: "{0}Light\u306EShadowType\u304C{1}\u4EE5\u5916\u306B\u8A2D\u5B9A\u3055\u308C\u3066\u3044\u307E\u3059\u3002({2})"
+  - _key: LightConfigRule.UnauthorizedShadowType.Solution
+    _value: "ShadowType\u3092{0}\u306B\u8A2D\u5B9A\u3057\u3066\u4E0B\u3055\u3044\u3002"
+  - _key: LightCountLimitRule.Overuse
+    _value: "{0} Light\u304C{1}\u500B\u3092\u8D85\u3048\u3066\u3044\u307E\u3059\u3002({2}\u500B)"
+  - _key: LightCountLimitRule.Overuse.Solution
+    _value: "\u5225\u306ELight\u3092\u4F7F\u7528\u3059\u308B\u304B\u3001\u524A\u9664\u3057\u3066\u500B\u6570\u3092\u6E1B\u3089\u3057\u3066\u4E0B\u3055\u3044\u3002"
+  - _key: LightmapSizeLimitRule.MustLightmapBakingManually
+    _value: "LightMap\u306E\u30D9\u30A4\u30AF\u65B9\u6CD5\u3092Auto Generate\u306B\u3057\u3066\u3044\u308B\u5834\u5408\u3001\u6B63\u5E38\u306A\u691C\u8A3C\u304C\u884C\u3048\u307E\u305B\u3093\u3002"
+  - _key: LightmapSizeLimitRule.MustLightmapBakingManually.Solution
+    _value: "\u4EE5\u4E0B\u306E\u64CD\u4F5C\u3092\u884C\u3063\u3066\u304F\u3060\u3055\u3044\u3002\n1.
+      Unity\u30E1\u30CB\u30E5\u30FC\u2192Window\u2192Lighting\u2192Setting\u3067Lighting\u30A6\u30A3\u30F3\u30C9\u30A6\u3092\u958B\u304F\u3002\n2.
+      \u30A6\u30A3\u30F3\u30C9\u30A6\u306E\u4E0B\u90E8\u306B\u3042\u308B\u3001Auto
+      Generate\u30C8\u30B0\u30EB\u3092\u30AA\u30D5\u306B\u3059\u308B\n3. Generate
+      Lighting\u30DC\u30BF\u30F3\u3092\u30AF\u30EA\u30C3\u30AF\u3059\u308B\u3002\n4.
+      \u30E9\u30A4\u30C8\u306E\u30D9\u30A4\u30AF\u304C\u884C\u308F\u308C\u308B\u306E\u3067\u3001\u7D42\u4E86\u3092\u5F85\u3064\u3002\u9032\u6357\u306F\u30A8\u30C7\u30A3\u30BF\u30A6\u30A3\u30F3\u30C9\u30A6\u53F3\u4E0B\u3067\u78BA\u8A8D\u3059\u308B\u3002\n5.
+      \u7D42\u4E86\u3092\u78BA\u8A8D\u3057\u3066\u304B\u3089\u518D\u5EA6\u691C\u8A3C\u3092\u884C\u3046\u3002\n\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306E\u8FFD\u52A0\u3084\u914D\u7F6E\u3092\u5909\u3048\u305F\u5F8C\u306B\u518D\u5EA6\u691C\u8A3C\u3059\u308B\u5834\u5408\u306F\u30013\u4EE5\u964D\u306E\u624B\u9806\u3092\u7E70\u308A\u8FD4\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: LightmapSizeLimitRule.Overarea
+    _value: "LightMap\u306E\u7DCF\u9762\u7A4D\u304C\u4E0A\u9650({0})\u3092\u8D85\u3048\u3066\u3044\u307E\u3059\u3002({1})"
+  - _key: LightmapSizeLimitRule.Overarea.Solution
+    _value: "MeshRenderer\u306ELightmapping\u304B\u3089Scale in Lightmap\u3092\u4E0B\u3052\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: LightmapSizeLimitRule.Overuse
+    _value: "LightMap\u306E\u751F\u6210\u679A\u6570\u304C\u4E0A\u9650({0})\u3092\u8D85\u3048\u3066\u3044\u307E\u3059\u3002\uFF08{1}\u679A\uFF09"
+  - _key: LightmapSizeLimitRule.Overuse.Solution
+    _value: "\u5236\u9650\u5185\u306B\u53CE\u307E\u308B\u3088\u3046\u3001\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306E\u6570\u3092\u6E1B\u3089\u3057\u305F\u308A\u3001MeshRenderer\u306EScale
+      In Lightmap\u306E\u8A2D\u5B9A\u3092\u4E0B\u3052\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: MeshRendererRule.MustAttachMaterial
+    _value: "MeshRenderer\u306B\u306F\u5FC5\u305A1\u3064\u4EE5\u4E0A\u306E\u30DE\u30C6\u30EA\u30A2\u30EB\u3092\u8A2D\u5B9A\u3057\u3066\u4E0B\u3055\u3044\u3002"
+  - _key: MeshRendererRule.ChangeLightmapParameters
+    _value: "LightmapParameters\u306E\u5909\u66F4\u306F\u7981\u6B62\u3055\u308C\u3066\u3044\u307E\u3059\u3002\u300CScene
+      Default Parameters\u300D\u3092\u4F7F\u7528\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: MeshRendererRule.StaticMeshMustPutInEnvironmentLayer
+    _value: "MeshRenderer\u3092Contribute GI\u306B\u8A2D\u5B9A\u3059\u308B\u969B\u306F\u3001\u30EC\u30A4\u30E4\u30FC\u3092Environment\u306B\u8A2D\u5B9A\u3057\u3066\u4E0B\u3055\u3044\u3002"
+  - _key: VketProjectorComponentRule.DefaultDisActive
+    _value: "Projector\u3092\u542B\u3080\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306F\u521D\u671F\u72B6\u614B\u3067\u975EActive\u306B\u3059\u308B\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059\u3002"
+  - _key: VketProjectorComponentRule.DefaultDisActive.Solution
+    _value: "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306E\u30C1\u30A7\u30C3\u30AF\u3092\u5916\u3057\u3066\u304A\u304D\u3001\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3084VRC_Trigger\u306ESetGameObjectActive\u306A\u3069\u3067\u6709\u52B9\u5316\u3059\u308B\u3088\u3046\u306B\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: ReflectionProbeRule.MustUseCustomTexture
+    _value: "ReflectionProbe\u306EType\u306FCustom\u304BBaked\u306B\u8A2D\u5B9A\u3057\u3066\u4E0B\u3055\u3044\u3002"
+  - _key: ReflectionProbeRule.Resolutin
+    _value: "ReflectionProbe\u306EResolution\u306F128\u4EE5\u4E0B\u306B\u3057\u3066\u304F\u3060\u3055\u3044"
+  - _key: RigidbodyRule.UseIsKinematic
+    _value: "Rigidbody\u306EIsKinematic\u306F\u5FC5\u305A\u6709\u52B9\u306B\u3057\u3066\u4E0B\u3055\u3044\u3002"
+  - _key: SkinnedMeshRendererRule.MustAttachMaterial
+    _value: "SkinnedMeshRenderer\u306B\u306F\u5FC5\u305A1\u3064\u4EE5\u4E0A\u306E\u30DE\u30C6\u30EA\u30A2\u30EB\u3092\u8A2D\u5B9A\u3057\u3066\u4E0B\u3055\u3044\u3002"
+  - _key: SkinnedMeshRendererRule.MustTurnOffUpdateWhenOffscreen
+    _value: "UpdateWhenOffscreen\u3092\u6709\u52B9\u306B\u3059\u308B\u3053\u3068\u306F\u51FA\u6765\u307E\u305B\u3093\u3002"
+  - _key: UsableComponentListRule.DefaultComponentGroupName
+    _value: "\u6307\u5B9A\u3055\u308C\u3066\u3044\u306A\u3044\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8"
+  - _key: UsableComponentListRule.Disallow
+    _value: "{0}:{1}\u306E\u4F7F\u7528\u306F\u8A31\u53EF\u3055\u308C\u3066\u3044\u307E\u305B\u3093\u3002"
+  - _key: UsableComponentListRule.Disallow.Solution
+    _value: "\u516C\u5F0FPrefab\u304C\u7528\u610F\u3055\u308C\u3066\u3044\u308B\u5834\u5408\u306F\u3001\u305D\u3061\u3089\u3092\u4F7F\u3046\u3053\u3068\u3067\u4F7F\u7528\u3059\u308B\u3053\u3068\u304C\u53EF\u80FD\u3067\u3059\u3002"
+  - _key: UsableComponentListRule.Disallow.SolutionURL
+    _value: 
+  - _key: VketAudioSourceDynamicObjectParentRule.noDynamicObject
+    _value: "Dynamic\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u304C\u5B58\u5728\u3057\u307E\u305B\u3093"
+  - _key: VketAudioSourceDynamicObjectParentRule.noDynamicObject.Solution
+    _value: "Dynamic \u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u3092\u4F5C\u6210\u3057\u3066\u304F\u3060\u3055\u3044"
+  - _key: VketAudioSourceDynamicObjectParentRule.IsNotChildOfDynamic
+    _value: "AudioSource [{0}] \u306F Dynamic \u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306E\u5B50\u3067\u306A\u3051\u308C\u3070\u306A\u308A\u307E\u305B\u3093"
+  - _key: VketAudioSourceDynamicObjectParentRule.IsNotChildOfDynamic.Solution
+    _value: "Dynamic \u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306E\u5B50\u306B\u79FB\u52D5\u3057\u3066\u304F\u3060\u3055\u3044"
+  - _key: VketParticleSystemDynamicObjectParentRule.noDynamicObject
+    _value: "Dynamic\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u304C\u5B58\u5728\u3057\u307E\u305B\u3093"
+  - _key: VketParticleSystemDynamicObjectParentRule.noDynamicObject.Solution
+    _value: "Dynamic \u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u3092\u4F5C\u6210\u3057\u3066\u304F\u3060\u3055\u3044"
+  - _key: VketParticleSystemDynamicObjectParentRule.IsNotChildOfDynamic
+    _value: "ParticleSystem [{0}] \u306F Dynamic \u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306E\u5B50\u3067\u306A\u3051\u308C\u3070\u306A\u308A\u307E\u305B\u3093"
+  - _key: VketParticleSystemDynamicObjectParentRule.IsNotChildOfDynamic.Solution
+    _value: "Dynamic \u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306E\u5B50\u306B\u79FB\u52D5\u3057\u3066\u304F\u3060\u3055\u3044"
+  - _key: VketRigidbodyDynamicObjectParentRule.noDynamicObject
+    _value: "Dynamic\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u304C\u5B58\u5728\u3057\u307E\u305B\u3093"
+  - _key: VketRigidbodyDynamicObjectParentRule.noDynamicObject.Solution
+    _value: "Dynamic \u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u3092\u4F5C\u6210\u3057\u3066\u304F\u3060\u3055\u3044"
+  - _key: VketRigidbodyDynamicObjectParentRule.IsNotChildOfDynamic
+    _value: "RigidBody [{0}] \u306F Dynamic \u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306E\u5B50\u3067\u306A\u3051\u308C\u3070\u306A\u308A\u307E\u305B\u3093"
+  - _key: VketRigidbodyDynamicObjectParentRule.IsNotChildOfDynamic.Solution
+    _value: "Dynamic \u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306E\u5B50\u306B\u79FB\u52D5\u3057\u3066\u304F\u3060\u3055\u3044"
+  - _key: UdonBehaviourSyncedVariablesRule.InvalidType
+    _value: "UdonBehaviour \u306E Synced\u5909\u6570[{0}] \u306B\u306F [{1}] \u578B\u3092\u6307\u5B9A\u3067\u304D\u307E\u305B\u3093"
+  - _key: UdonBehaviourSyncedVariablesRule.InvalidType.Solution
+    _value: "bool, sbyte, byte, ushort, short, uint, int, float \u306E\u3044\u305A\u308C\u304B\u306E\u578B\u3092\u4F7F\u7528\u3057\u3066\u304F\u3060\u3055\u3044"
+  - _key: UdonBehaviourSyncedVariablesRule.Overuse
+    _value: "UdonBehaviour\u306E Synced\u5909\u6570\u304C{0}\u500B\u3092\u8D85\u3048\u3066\u3044\u307E\u3059\u3002({1}\u500B)"
+  - _key: UdonBehaviourSyncedVariablesRule.Overuse.Solution
+    _value: "\u4F7F\u7528\u500B\u6570\u3092\u6E1B\u3089\u3057\u3066\u4E0B\u3055\u3044\u3002"
+  - _key: UdonDynamicObjectInactiveRule.isActive
+    _value: "Dynamic\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u304CActive\u3067\u3059"
+  - _key: UdonDynamicObjectInactiveRule.isActive.Solution
+    _value: "\u5168\u3066\u306EUdonBehaviour\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306E\u89AA\u3067\u3042\u308BDynamic\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306F\u521D\u671F\u3067Inactive\u72B6\u614B\u306B\u3057\u3066\u304F\u3060\u3055\u3044"
+  - _key: UdonDynamicObjectParentRule.noDynamicObject
+    _value: "Dynamic\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u304C\u5B58\u5728\u3057\u307E\u305B\u3093"
+  - _key: UdonDynamicObjectParentRule.noDynamicObject.Solution
+    _value: "Dynamic \u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u3092\u4F5C\u6210\u3057\u3066\u304F\u3060\u3055\u3044"
+  - _key: UdonDynamicObjectParentRule.UdonBehaviourIsNotChildOfDynamic
+    _value: "UdonBehaviour [{0}] \u306F Dynamic \u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306E\u5B50\u3067\u306A\u3051\u308C\u3070\u306A\u308A\u307E\u305B\u3093"
+  - _key: UdonDynamicObjectParentRule.UdonBehaviourIsNotChildOfDynamic.Solution
+    _value: "Dynamic \u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306E\u5B50\u306B\u79FB\u52D5\u3057\u3066\u304F\u3060\u3055\u3044"
+  - _key: UdonDynamicObjectParentRule.UdonBehaviourPublicValueIsNotChildOfDynamic
+    _value: "UdonBehaviour [{0}] \u306E Public\u5909\u6570 [{1}] \u306F Dynamic \u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306E\u5B50\u3067\u306A\u3051\u308C\u3070\u306A\u308A\u307E\u305B\u3093"
+  - _key: UdonDynamicObjectParentRule.UdonBehaviourPublicValueIsNotChildOfDynamic.Solution
+    _value: "Dynamic \u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306E\u5B50\u306B\u79FB\u52D5\u3057\u3066\u304F\u3060\u3055\u3044"
+  - _key: UsableUdonAssemblyListRule.DefaultComponentGroupName
+    _value: "\u6307\u5B9A\u3055\u308C\u3066\u3044\u306A\u3044\u30A2\u30BB\u30F3\u30D6\u30EA"
+  - _key: UsableUdonAssemblyListRule.Disallow
+    _value: "{0} : {1}\u306E\u4F7F\u7528\u306F\u8A31\u53EF\u3055\u308C\u3066\u3044\u307E\u305B\u3093\u3002"
+  - _key: VRCSDKVersionRule.NotInstalled
+    _value: "VRCSDK\u304C\u30A4\u30F3\u30DD\u30FC\u30C8\u3055\u308C\u3066\u3044\u307E\u305B\u3093\u3002"
+  - _key: VRCSDKVersionRule.NotInstalled.Solution
+    _value: "VRChat Creator Companion \u304B\u3089 VRChat SDK - Worlds \u3092\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\u306B\u8FFD\u52A0\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: VRCSDKVersionRule.PreviousVersion
+    _value: "VRCSDK\u304C\u6700\u65B0\u30D0\u30FC\u30B8\u30E7\u30F3\u3067\u306F\u3042\u308A\u307E\u305B\u3093\u3002"
+  - _key: VRCSDKVersionRule.PreviousVersion.Solution
+    _value: "VRChat Creator Companion \u304B\u3089 VRChat SDK - Worlds \u3092\u6700\u65B0\u30D0\u30FC\u30B8\u30E7\u30F3
+      {0} \u306B\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: SpatialAudioDynamicObjectParentRule.IsNotChildOfDynamic
+    _value: "VRCSpatialAudioSource [{0}] \u306F Dynamic \u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306E\u5B50\u3067\u306A\u3051\u308C\u3070\u306A\u308A\u307E\u305B\u3093"
+  - _key: SpatialAudioDynamicObjectParentRule.IsNotChildOfDynamic.Solution
+    _value: "Dynamic \u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306E\u5B50\u306B\u79FB\u52D5\u3057\u3066\u304F\u3060\u3055\u3044"
+  - _key: SpatialAudioDynamicObjectParentRule.noDynamicObject
+    _value: "Dynamic\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u304C\u5B58\u5728\u3057\u307E\u305B\u3093"
+  - _key: SpatialAudioDynamicObjectParentRule.noDynamicObject.Solution
+    _value: "Dynamic \u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u3092\u4F5C\u6210\u3057\u3066\u304F\u3060\u3055\u3044"
+  - _key: UnityVersionRule.InvalidVersion
+    _value: "\u5B9F\u884C\u4E2D\u306EUnity\u306E\u30D0\u30FC\u30B8\u30E7\u30F3({0})\u304C\u6307\u5B9A\u3055\u308C\u305F\u30D0\u30FC\u30B8\u30E7\u30F3\u3068\u7570\u306A\u3063\u3066\u3044\u307E\u3059\u3002"
+  - _key: UnityVersionRule.InvalidVersion.Solution
+    _value: "\u30D0\u30FC\u30B8\u30E7\u30F3({0})\u3092\u4F7F\u7528\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: UdonAssemblyCallbackRule.DisallowCallbacks
+    _value: "{0}: {1} \u306E\u4F7F\u7528\u306F\u8A31\u53EF\u3055\u308C\u3066\u3044\u307E\u305B\u3093\u3002"
+  - _key: UdonAssemblyCallbackRule.DisallowCallbacks.Solution
+    _value: "\u30B3\u30FC\u30EB\u30D0\u30C3\u30AF\u3092\u53D6\u308A\u9664\u304F\u304B
+      _Vket* \u3067\u7F6E\u304D\u63DB\u3048\u3066\u304F\u3060\u3055\u3044"
+  - _key: UdonBehaviourProgramSourceRule.Message
+    _value: "ProgramSource\u304CNone\u306EUdonBehaviour\u306F\u4F7F\u7528\u3057\u306A\u3044\u3053\u3068"
+  - _key: UdonBehaviourProgramSourceRule.Solution
+    _value: "UdonBehaviour\u3092\u5916\u3059\u304B\u3001ProgramSource\u3092\u6307\u5B9A\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: UdonBehaviourSyncModeRule.InvalidType
+    _value: "UdonBehaviour \u306E Synchronization Method \u306B\u306F Continuous
+      \u3092\u4F7F\u7528\u3067\u304D\u307E\u305B\u3093"
+  - _key: UdonBehaviourSyncModeRule.InvalidType.Solution
+    _value: "Continuous \u4EE5\u5916\u3092\u6307\u5B9A\u3059\u308B\u304B\u3001Synced\u5909\u6570\u3092\u7121\u304F\u3057\u3066\u304F\u3060\u3055\u3044"
+  - _key: VRCAVProVideoPlayerRule.EnabledAutoPlay
+    _value: "VRCAVProVideoPlayer\u306FAutoPlay\u3092\u7121\u52B9\u306B\u3059\u308B\u3053\u3068\u3002"
+  - _key: VRCAVProVideoPlayerRule.EnabledAutoPlay.Solution
+    _value: "AutoPlay\u3092\u7121\u52B9\u306B\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: VRCAVProVideoScreenRule.EnabledAutoPlay
+    _value: "VRCAVProVideoScreen\u306FUse Shared Material\u3092\u7121\u52B9\u306B\u3059\u308B\u3053\u3068"
+  - _key: VRCAVProVideoScreenRule.EnabledAutoPlay.Solution
+    _value: "Use Shared Material\u3092\u7121\u52B9\u306B\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: VRCObjectPoolPoolLimitRule.Overuse
+    _value: "VRCObjectPool\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8\u306EPool\u304C{0}\u500B\u3092\u8D85\u3048\u3066\u3044\u307E\u3059\u3002({1}\u500B)"
+  - _key: VRCObjectPoolPoolLimitRule.Overuse.Solution
+    _value: "Pool\u3092\u6E1B\u3089\u3057\u3066\u4E0B\u3055\u3044\u3002"
+  - _key: VRCObjectSyncAllowOwnershipTransferOnCollisionIsFalseRule.Title
+    _value: "AllowOwnershipTransferOnCollision\u306F\u5FC5\u305AFalse\u306B\u3059\u308B\u3053\u3068"
+  - _key: VketItemRule.UnauthorizedBoxCollider
+    _value: "BoxCollider\u306E\u4F7F\u7528\u306F\u8A31\u53EF\u3055\u308C\u3066\u3044\u307E\u305B\u3093\u3002"
+  - _key: VketItemRule.UnauthorizedBoxCollider.Solution
+    _value: "Collider\u3092\u5916\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: VketItemRule.UnauthorizedRigidbody
+    _value: "Rigidbody\u306E\u4F7F\u7528\u306F\u8A31\u53EF\u3055\u308C\u3066\u3044\u307E\u305B\u3093\u3002"
+  - _key: VketItemRule.UnauthorizedRigidbody.Solution
+    _value: "Rigidbody\u3092\u5916\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: VketItemRule.UnauthorizedVRCPickup
+    _value: "VRCPickup\u306E\u4F7F\u7528\u306F\u8A31\u53EF\u3055\u308C\u3066\u3044\u307E\u305B\u3093\u3002"
+  - _key: VketItemRule.UnauthorizedVRCPickup.Solution
+    _value: "VRCPickup\u3092\u5916\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: VketTargetFinder.ExhibitNotFound
+    _value: "\u5165\u7A3F\u7269\u304C\u898B\u3064\u304B\u308A\u307E\u305B\u3093\u3002"
+  - _key: VketTargetFinder.ManyExhibits
+    _value: "\u5165\u7A3F\u7269\u304C\u8907\u6570\u5B58\u5728\u3057\u307E\u3059\u3002"
+  - _key: VketTargetFinder.PackageFolderNotFound
+    _value: "\u5165\u7A3F\u30D5\u30A9\u30EB\u30C0\u304C\u5B58\u5728\u3057\u307E\u305B\u3093\u3002"
+  - _key: VketTargetFinder.SceneNotFound
+    _value: "\u5165\u7A3F\u30B7\u30FC\u30F3({0})\u304C\u898B\u3064\u304B\u308A\u307E\u305B\u3093\u3002"
+  - _key: VketTargetFinder.SceneOpenDialog
+    _value: "\u691C\u8A3C\u3092\u7D9A\u884C\u3059\u308B\u70BA\u306B\u306F\u691C\u8A3C\u5BFE\u8C61\u306E\u30B7\u30FC\u30F3\u3092\u958B\u304F\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059\u3002"
+  - _key: VketTargetFinder.SceneOpenDialog.Abort
+    _value: "\u4E2D\u6B62"
+  - _key: VketTargetFinder.SceneOpenDialog.Continue
+    _value: "\u7D9A\u884C"
+  - _key: VketTargetFinder.SceneOpenDialog.Title
+    _value: "\u691C\u8A3C\u5BFE\u8C61\u306E\u30B7\u30FC\u30F3\u304C\u958B\u304B\u308C\u3066\u3044\u307E\u305B\u3093\u3002"
+  - _key: VketTargetFinder.UserDidntSave
+    _value: "\u7DE8\u96C6\u4E2D\u306E\u30B7\u30FC\u30F3\u30D5\u30A1\u30A4\u30EB\u3092\u30BB\u30FC\u30D6\u3057\u3066\u518D\u5B9F\u884C\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - _key: VketTargetFinder.ValidationAborted
+    _value: "\u691C\u8A3C\u3092\u4E2D\u6B62\u3057\u307E\u3057\u305F\u3002"
+  - _key: UdonBehaviourSerializeArrayRule.HasInitializeSerializeArray
+    _value: "U#\u3067\u53C2\u7167\u578B\u306ESerialize\u914D\u5217\u304C\u542B\u307E\u308C\u3066\u307E\u3059\u3002"
+  - _key: UdonBehaviourSerializeArrayRule.HasInitializeSerializeArray.Solution
+    _value: "\u6B63\u5E38\u306B\u52D5\u4F5C\u3057\u306A\u3044\u53EF\u80FD\u6027\u304C\u3042\u308B\u306E\u3067\u3001VketStart\u306A\u3069\u3067\u521D\u671F\u5316\u3059\u308B\u3088\u3046\u306B\u5909\u66F4\u3057\u3066\u304F\u3060\u3055\u3044\u3002\nFound
+      Serialized Array:{0} ({1})"
+  - _key: VketMirrorRule.Title
+    _value: "VRC Mirror\u306E\u30EB\u30FC\u30EB\u306B\u9055\u53CD\u3057\u3066\u3044\u307E\u3059\u3002"
+  - _key: VketMirrorRule.AntialiasingError
+    _value: "VRC Mirror Reflection\u306B\u3066Maximum Antialiasing\u306EX8\u306F\u4F7F\u7528\u3067\u304D\u307E\u305B\u3093\u3002"
+  - _key: VketMirrorRule.LayerChanged
+    _value: "VRC Mirror Reflection\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306ELayer\u306F\u300CWater\u300D\u4EE5\u5916\u4F7F\u7528\u3067\u304D\u307E\u305B\u3093\u3002"
+  - _key: VketRuleSetBase.UnityVersionRule.Title
+    _value: "Unity\u306E\u30D0\u30FC\u30B8\u30E7\u30F3\u306F{0}\u3092\u4F7F\u7528\u3059\u308B\u3053\u3068"
+  - _key: VketRuleSetBase.VRCSDKVersionRule.Title
+    _value: "VRCSDK\u306F\u63D0\u51FA\u6642\u70B9\u306E\u6700\u65B0\u30D0\u30FC\u30B8\u30E7\u30F3\u3092\u4F7F\u3046\u3053\u3068"
+  - _key: VketRuleSetBase.ShaderNameBlockRule.Title
+    _value: "\u30B7\u30A7\u30FC\u30C0\u30FC\u540D\u306E\u5236\u9650"
+  - _key: VketRuleSetBase.ExistInSubmitFolderRule.Title
+    _value: "\u914D\u5E03\u7269\u4EE5\u5916\u306E\u5168\u3066\u306E\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u53C2\u7167\u304C\u5165\u7A3F\u30D5\u30A9\u30EB\u30C0\u5185\u306B\u5B58\u5728\u3059\u308B\u3053\u3068"
+  - _key: VketRuleSetBase.OfficialAssetDontContainRule.Title
+    _value: "\u914D\u5E03\u30A2\u30BB\u30C3\u30C8\u3092\u5165\u7A3F\u30D5\u30A9\u30EB\u30C0\u5185\u306B\u5165\u308C\u306A\u3044\u3053\u3068"
+  - _key: VketRuleSetBase.NameOfFileAndFolderRule.Title
+    _value: "\u30D5\u30A1\u30A4\u30EB\u540D\u3068\u30D5\u30A9\u30EB\u30C0\u540D\u306E\u4F7F\u7528\u7981\u6B62\u6587\u5B57\u30EB\u30FC\u30EB"
+  - _key: VketRuleSetBase.FilePathLengthLimitRule.Title
+    _value: "\u30D5\u30A1\u30A4\u30EB\u30D1\u30B9\u306FAsset/\u304B\u3089\u6570\u3048\u3066{0}\u6587\u5B57\u4EE5\u5185\u306B\u53CE\u307E\u3063\u3066\u3044\u308B\u3053\u3068"
+  - _key: VketRuleSetBase.MeshFileTypeBlacklistRule.Title
+    _value: "\u30E1\u30C3\u30B7\u30E5\u30A2\u30BB\u30C3\u30C8\u306E\u30D5\u30A1\u30A4\u30EB\u5F62\u5F0F\u3067\u7279\u5B9A\u306E\u3082\u306E\u304C\u542B\u307E\u308C\u3066\u3044\u306A\u3044\u3053\u3068"
+  - _key: VketRuleSetBase.ContainMatOrTexInAssetRule.Title
+    _value: "\u30A2\u30BB\u30C3\u30C8\u306B\u57CB\u3081\u8FBC\u307E\u308C\u305FMaterial\u3082\u3057\u304F\u306FTexture\u3092\u4F7F\u3063\u3066\u3044\u306A\u3044\u3053\u3068"
+  - _key: VketRuleSetBase.FolderSizeRule.Title
+    _value: "\u30D5\u30A9\u30EB\u30C0\u30B5\u30A4\u30BA\u306F\u5236\u9650\u4EE5\u5185\u306B\u53CE\u3081\u308B\u3053\u3068"
+  - _key: VketRuleSetBase.ExhibitStructureRule.Title
+    _value: "Static,Dynamic\u306E2\u3064\u306EEmpty\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u3092\u4F5C\u308A\u3001\u3059\u3079\u3066\u306E\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306F\u3053\u306E\u3069\u3061\u3089\u304B\u306E\u968E\u5C64\u4E0B\u306B\u5165\u308C\u308B\u3053\u3068"
+  - _key: VketRuleSetBase.SceneStructureRule.Title
+    _value: "\u5165\u7A3F\u30B7\u30FC\u30F3\u306E\u69CB\u9020\u304C\u6B63\u3057\u304F\u3042\u308A\u307E\u305B\u3093\u3002"
+  - _key: VketRuleSetBase.StaticFlagsRule.Title
+    _value: "Static\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u4EE5\u4E0B\u306F\u7279\u5B9A\u306EStatic\u8A2D\u5B9A\u3092\u884C\u3046\u3053\u3068"
+  - _key: VketRuleSetBase.DynamicRule.Title
+    _value: "Dynamic\u914D\u4E0B\u306B\u9759\u7684\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u3092\u304A\u304B\u306A\u3044"
+  - _key: VketRuleSetBase.DisallowEditorOnlyTagRule.Title
+    _value: "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306ETag\u304CEditorOnly\u4EE5\u5916\u3067\u3042\u308B\u3053\u3068"
+  - _key: VketRuleSetBase.BoothBoundsRule.Title
+    _value: "\u30D6\u30FC\u30B9\u30B5\u30A4\u30BA\u306F\u898F\u5B9A\u306E\u7BC4\u56F2\u5185\u306B\u53CE\u3081\u308B\u3053\u3068"
+  - _key: VketRuleSetBase.MaterialLimitRule.Title
+    _value: "Material\u4F7F\u7528\u6570\u304C{0}\u500B\u4EE5\u4E0B\u3067\u3042\u308B\u3053\u3068"
+  - _key: VketRuleSetBase.LightMapsLimitRule.Title
+    _value: "LightMap\u306E\u4F7F\u7528\u679A\u6570\u304C{0}\u679A\u4EE5\u4E0B\u3001\u89E3\u50CF\u5EA6\u306F{1}\u4EE5\u4E0B\u3001\u7DCF\u9762\u7A4D\u306F{2}\u4EE5\u4E0B\u3067\u3042\u308B\u3053\u3068"
+  - _key: VketRuleSetBase.LightMapOverlapsRule.Title
+    _value: "LightMapOverlaps\u306E\u30EB\u30FC\u30EB\u306B\u9055\u53CD\u3057\u3066\u3044\u307E\u3059\u3002"
+  - _key: Booth.ErrorShaderRule.Title
+    _value: "\u30A8\u30E9\u30FC\u30B7\u30A7\u30FC\u30C0\u30FC\u30EB\u30FC\u30EB"
+  - _key: FBXImportRule.Title
+    _value: "3D\u30E2\u30C7\u30EB\u30A4\u30F3\u30DD\u30FC\u30C8\u306E\u30EB\u30FC\u30EB\u306B\u9055\u53CD\u3057\u3066\u3044\u307E\u3059\u3002"
+  - _key: VketRuleSetBase.UsableComponentListRule.Title
+    _value: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8\u306E\u4F7F\u7528\u53EF\u5426"
+  - _key: VketRuleSetBase.SkinnedMeshRendererRule.Title
+    _value: "SkinnedMeshRenderer\u3092\u4F7F\u7528\u3059\u308B\u969B\u306F\u5236\u9650\u306B\u5F93\u3046\u3053\u3068"
+  - _key: VketRuleSetBase.MeshRendererRule.Title
+    _value: "MeshRenderer/MeshFilter\u3092\u4F7F\u7528\u3059\u308B\u969B\u306F\u5236\u9650\u306B\u5F93\u3046\u3053\u3068"
+  - _key: VketRuleSetBase.ReflectionProbeRule.Title
+    _value: "ReflectionProbe\u3092\u4F7F\u7528\u3059\u308B\u969B\u306F\u5236\u9650\u306B\u5F93\u3046\u3053\u3068"
+  - _key: VketRuleSetBase.UseMeshColliderRule.Title
+    _value: "MeshCollider\u4EE5\u5916\u306ECollider\u3092\u4F7F\u7528\u3059\u308B\u3053\u3068"
+  - _key: VketRuleSetBase.DirectionalLightLimitRule.Title
+    _value: "DirectionalLight\u3092\u4F7F\u7528\u3057\u306A\u3044\u3053\u3068"
+  - _key: VketRuleSetBase.AreaLightLimitRule.Title
+    _value: "AreaLight\u306E\u4F7F\u7528\u6570\u304C{0}\u500B\u4EE5\u4E0B\u3067\u3042\u308B\u3053\u3068"
+  - _key: VketRuleSetBase.PointLightConfigRule.Title
+    _value: "PointLight\u306E\u8A2D\u5B9A\u304C\u5236\u9650\u306B\u5F93\u3063\u3066\u3044\u308B\u3053\u3068"
+  - _key: VketRuleSetBase.SpotLightConfigRule.Title
+    _value: "SpotLight\u306E\u8A2D\u5B9A\u304C\u5236\u9650\u306B\u5F93\u3063\u3066\u3044\u308B\u3053\u3068"
+  - _key: VketRuleSetBase.AreaLightConfigRule.Title
+    _value: "AreaLight\u306E\u8A2D\u5B9A\u304C\u5236\u9650\u306B\u5F93\u3063\u3066\u3044\u308B\u3053\u3068"
+  - _key: VketRuleSetBase.AnimatorComponentMaxCountRule.Title
+    _value: "Animator\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8\u306E\u4F7F\u7528\u6570\u306F\u5236\u9650\u306B\u53CE\u3081\u308B\u3053\u3068"
+  - _key: VketRuleSetBase.AnimationComponentRule.Title
+    _value: "AnimationComponent\u306F\u898F\u5B9A\u306E\u5236\u9650\u306B\u5F93\u3046\u3053\u3068"
+  - _key: VketRuleSetBase.AnimatorComponentRule.Title
+    _value: "AnimatorComponent\u306F\u898F\u5B9A\u306E\u5236\u9650\u306B\u5F93\u3046\u3053\u3068"
+  - _key: VketRuleSetBase.DynamicBoneRule.Title
+    _value: "DynamicBone\u306E\u30EB\u30FC\u30EB\u306B\u9055\u53CD\u3057\u3066\u3044\u307E\u3059\u3002"
+  - _key: VketRuleSetBase.AnimationClipRule.Title
+    _value: "AnimationClip\u306F\u898F\u5B9A\u306E\u5236\u9650\u306B\u5F93\u3046\u3053\u3068"
+  - _key: VketRuleSetBase.CanvasRenderModeRule.Title
+    _value: "Canvas\u306FWorldSpace\u306B\u8A2D\u5B9A\u3059\u308B\u3053\u3068"
+  - _key: VketRuleSetBase.CameraComponentMaxCountRule.Title
+    _value: "Camera\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8\u306E\u4F7F\u7528\u6570\u306F\u5236\u9650\u306B\u53CE\u3081\u308B\u3053\u3068"
+  - _key: VketRuleSetBase.CameraComponentRule.Title
+    _value: "Camera\u3092\u4F7F\u7528\u3059\u308B\u969B\u306F\u5236\u9650\u306B\u5F93\u3046\u3053\u3068"
+  - _key: VketRuleSetBase.RenderTextureMaxCountRule.Title
+    _value: "RenderTexture\u306E\u679A\u6570\u5236\u9650\u3092\u8D85\u3048\u306A\u3044\u3053\u3068"
+  - _key: VketRuleSetBase.RenderTextureMaxSizeRule.Title
+    _value: "RenderTexture\u306E\u30B5\u30A4\u30BA\u5236\u9650\u3092\u8D85\u3048\u306A\u3044\u3053\u3068"
+  - _key: VketRuleSetBase.ProjectorComponentRule.Title
+    _value: "Projector\u3092\u4F7F\u7528\u3059\u308B\u969B\u306F\u5236\u9650\u306B\u5F93\u3046\u3053\u3068"
+  - _key: VketRuleSetBase.ProjectorComponentMaxCountRule.Title
+    _value: "Projector\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8\u306E\u4F7F\u7528\u6570\u306F\u5236\u9650\u306B\u53CE\u3081\u308B\u3053\u3068"
+  - _key: VketUdonRuleSetBase.VRCObjectSyncLimitRule.Title
+    _value: "VRC Object Sync\u306E\u4F7F\u7528\u6570\u304C{0}\u500B\u4EE5\u4E0B\u3067\u3042\u308B\u3053\u3068"
+  - _key: VketRuleSetBase.AvatarPedestalPrefabRule.Title
+    _value: "AvatarPedestal\u306E\u8A2D\u5B9A\u304C\u898F\u5B9A\u306B\u5F93\u3063\u3066\u3044\u308B\u3053\u3068"
+  - _key: VketRuleSetBase.AudioSourcePrefabRule.Title
+    _value: "AudioSource\u306E\u8A2D\u5B9A\u304C\u898F\u5B9A\u306B\u5F93\u3063\u3066\u3044\u308B\u3053\u3068"
+  - _key: VketRuleSetBase.UnusabePrefabRule.Title
+    _value: "\u5165\u7A3F\u30D5\u30A9\u30EB\u30C0\u30FC\u306B\u542B\u307E\u308C\u3066\u3044\u308BPrefab\u3001\u304A\u3088\u3073\u516C\u5F0FPrefab\u4EE5\u5916\u306EPrefab\u3092\u4F7F\u7528\u3057\u306A\u3044\u3053\u3068"
+  - _key: VketRuleSetBase.PickupObjectSyncPrefabLimitRule.Title
+    _value: "PickupObjectSync\u306E\u4F7F\u7528\u6570\u306F{0}\u500B\u306B\u53CE\u3081\u308B\u3053\u3068"
+  - _key: VketRuleSetBase.VketVideoPlayerPrefabLimitRule.Title
+    _value: "Vket Video Player\u306F1\u30D6\u30FC\u30B9\u306B\u3064\u304D1\u3064\u306E\u307F\u4F7F\u7528\u53EF"
+  - _key: VketRuleSetBase.ImageDownloaderPrefabLimitRule.Title
+    _value: "VketImageDownloader.prefab\u306E\u8A2D\u7F6E\u5236\u9650\u3092\u8D85\u3048\u306A\u3044\u3053\u3068"
+  - _key: VketRuleSetBase.StringDownloaderPrefabLimitRule.Title
+    _value: "VketStringDownloader.prefab\u306E\u8A2D\u7F6E\u5236\u9650\u3092\u8D85\u3048\u306A\u3044\u3053\u3068"
+  - _key: VketRuleSetBase.StarshipTreasurePrefabLimitRule.Title
+    _value: "VketStarshipTreasure.prefab\u306E\u8A2D\u7F6E\u5236\u9650\u3092\u8D85\u3048\u306A\u3044\u3053\u3068"
+  - _key: VketUdonRuleSetBase.UdonDynamicObjectParentRule.Title
+    _value: "UdonBehaviour \u3068 \u305D\u308C\u306B\u3088\u3063\u3066\u64CD\u4F5C\u3092\u884C\u3046\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306F
+      Dynamic\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306E\u5B50\u306B\u914D\u7F6E\u3055\u308C\u308B\u3053\u3068"
+  - _key: VketUdonRuleSetBase.UdonDynamicObjectInactiveRule.Title
+    _value: "Dynamic\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u304CInactive\u3067\u3042\u308B\u3053\u3068"
+  - _key: VketUdonRuleSetBase.UdonBehaviourLimitRule.Title
+    _value: "UdonBehaviour\u306E\u6570\u304C{0}\u500B\u4EE5\u4E0B\u3067\u3042\u308B\u3053\u3068"
+  - _key: VketUdonRuleSetBase.VRCObjectPoolLimitRule.Title
+    _value: "VRC Object Pool\u306F1\u30D6\u30FC\u30B9\u3042\u305F\u308A 1 \u307E\u3067"
+  - _key: VketUdonRuleSetBase.VRCObjectPoolPoolLimitRule.Title
+    _value: "VRCObjectPool\u306EPool\u304C{0}\u500B\u4EE5\u4E0B\u3067\u3042\u308B\u3053\u3068"
+  - _key: VketUdonRuleSetBase.VRCObjectPickupLimitRule.Title
+    _value: "VRC Pickup\u306E\u4F7F\u7528\u6570\u304C{0}\u500B\u4EE5\u4E0B\u3067\u3042\u308B\u3053\u3068"
+  - _key: VketUdonRuleSetBase.ClothLimitRule.Title
+    _value: "Cloth\u306E\u4F7F\u7528\u6570\u304C{0}\u500B\u4EE5\u4E0B\u3067\u3042\u308B\u3053\u3068"
+  - _key: VketUdonRuleSetBase.AudioSourceLimitRule.Title
+    _value: "AudioSource\u306E\u4F7F\u7528\u6570\u304C{0}\u500B\u4EE5\u4E0B\u3067\u3042\u308B\u3053\u3068"
+  - _key: VketUdonRuleSetBase.UdonBehaviourSynchronizePositionCountLimitRule.Title
+    _value: "SynchronizePosition \u304C\u6709\u52B9\u306A UdonSharp \u306E\u4F7F\u7528\u6570\u304C{0}\u500B\u4EE5\u4E0B\u3067\u3042\u308B\u3053\u3068"
+  - _key: VketUdonRuleSetBase.UdonBehaviourSyncModeRule.Title
+    _value: "UdonBehaviour \u306E Synchronization Method \u5236\u9650"
+  - _key: VketUdonRuleSetBase.VRCStationCountLimitRule.Title
+    _value: "VRCStation\u306E\u4F7F\u7528\u6570\u304C{0}\u500B\u4EE5\u4E0B\u3067\u3042\u308B\u3053\u3068"
+  - _key: VketUdonRuleSetBase.SpatialAudioDynamicObjectParentRule.Title
+    _value: "VRCSpatialAudioSource\u3092\u542B\u3080\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306F\u5168\u3066Dynamic\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306E\u5B50\u306B\u914D\u7F6E\u3055\u308C\u308B\u3053\u3068"
+  - _key: VketUdonRuleSetBase.VketAudioSourceDynamicObjectParentRule.Title
+    _value: "AudioSource\u3092\u542B\u3080\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306F\u5168\u3066Dynamic\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306E\u5B50\u306B\u914D\u7F6E\u3055\u308C\u308B\u3053\u3068"
+  - _key: VketUdonRuleSetBase.VketRigidbodyDynamicObjectParentRule.Title
+    _value: "RigidBody\u3092\u542B\u3080\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306F\u5168\u3066Dynamic\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306E\u5B50\u306B\u914D\u7F6E\u3055\u308C\u308B\u3053\u3068"
+  - _key: VketUdonRuleSetBase.VketParticleSystemDynamicObjectParentRule.Title
+    _value: "ParticleSystem\u3092\u542B\u3080\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306F\u5168\u3066Dynamic\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306E\u5B50\u306B\u914D\u7F6E\u3055\u308C\u308B\u3053\u3068"
+  - _key: UdonBehaviourProgramSourceRule.Title
+    _value: "UdonBehaviour\u306E\u5236\u7D04"
+  - _key: VketUdonRuleSetBase.UsableUdonAssemblyListRule.Title
+    _value: "\u8A31\u53EF\u3055\u308C\u3066\u3044\u306A\u3044UdonAssembly\u3092\u4F7F\u7528\u3057\u306A\u3044\u3053\u3068"
+  - _key: VketUdonRuleSetBase.UdonBehaviourSyncedVariablesRule.Title
+    _value: "UdonBehaviour \u306E SyncedVariables \u5236\u9650"
+  - _key: VketRuleSetBase.RigidbodyRule.Title
+    _value: "Rigidbody\u306EIsKinematic\u3092\u4F7F\u7528\u3059\u308B\u3053\u3068"
+  - _key: VketRuleSetBase.VRCAVProVideoPlayerRule.Title
+    _value: "VRCAVProVideoPlayer\u306E\u30EB\u30FC\u30EB\u306B\u9055\u53CD\u3057\u3066\u3044\u307E\u3059\u3002"
+  - _key: VketRuleSetBase.VRCAVProVideoScreenRule.Title
+    _value: "VRCAVProVideoScreen\u306E\u30EB\u30FC\u30EB\u306B\u9055\u53CD\u3057\u3066\u3044\u307E\u3059\u3002"
+  - _key: VketUdonRuleSetBase.AudioSourceRule.Title
+    _value: "AudioSource\u306E\u5236\u7D04"
+  - _key: VketUdonRuleSetBase.ParticleSystemForceFieldRule.Title
+    _value: "ParticleSystemForceField\u306E\u30EB\u30FC\u30EB\u306B\u9055\u53CD\u3057\u3066\u3044\u307E\u3059\u3002"
+  - _key: VketUdonRuleSetBase.ParticleSystemShapeModuleRule.Title
+    _value: "ParticleSystemShapeModule\u306E\u30EB\u30FC\u30EB\u306B\u9055\u53CD\u3057\u3066\u3044\u307E\u3059\u3002"
+  - _key: AudioSourceRule.MaxDistance.Title
+    _value: "Audio\u304C\u306F\u307F\u51FA\u3066\u3044\u307E\u3059"
+  - _key: ParticleSystemRule.MaxDistance.Title
+    _value: "ParticleSystem\u304C\u306F\u307F\u51FA\u3066\u3044\u307E\u3059\u3002"
+  - _key: VketUdonRuleSetBase.ParticleSystemForceFieldRule.MaxDistance.Title
+    _value: "ParticleSystemForceField\u304C\u306F\u307F\u51FA\u3066\u3044\u307E\u3059\u3002"
+  - _key: VketUdonRuleSetBase.UdonAssemblyCallbackRule.Title
+    _value: "\u8A31\u53EF\u3055\u308C\u3066\u3044\u306A\u3044\u30B3\u30FC\u30EB\u30D0\u30C3\u30AF\u3092\u4F7F\u7528\u3057\u306A\u3044\u3053\u3068"
+  - _key: VketUdonRuleSetBase.DisabledDirectiveRule.Title
+    _value: "\u4EE5\u4E0B\u306E\u30C7\u30A3\u30EC\u30AF\u30C6\u30A3\u30D6\u306F\u4F7F\u7528\u7981\u6B62"
+  - _key: VketUdonRuleSetBase.PostProcessingVolumeRule.Title
+    _value: "PostProcessingVolume\u306F\u65E2\u5B9A\u306E\u30EB\u30FC\u30EB\u3067\u4F7F\u7528\u3057\u3066\u304F\u3060\u3055\u3044"
+  - _key: VketItemRuleSetBase.VketItemRule.Title
+    _value: "\u30A2\u30A4\u30C6\u30E0\u5165\u7A3F\u30EB\u30FC\u30EB\u306B\u9055\u53CD\u3057\u3066\u3044\u307E\u3059\u3002"
+  - _key: VketItemRuleSetBase.StaticFlagsRule.Title
+    _value: "Static\u8A2D\u5B9A\u30EB\u30FC\u30EB\u306B\u9055\u53CD\u3057\u3066\u3044\u307E\u3059\u3002"
+  - _key: VketUdonRuleSetBase.UdonBehaviourSerializeArrayRule.Title
+    _value: "UdonBehaviour\u306E\u5236\u7D04"
+  - _key: VketRuleSetBase.AnimationMakesMoveCollidersRule.Title
+    _value: "\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u306B\u3088\u308A\u30B3\u30E9\u30A4\u30C0\u30FC\u304C\u52D5\u304F\u53EF\u80FD\u6027\u304C\u3042\u308A\u307E\u3059\u3002"
+  - _key: ShaderDeclarationMethodRule.Title
+    _value: "\u4F7F\u7528\u3057\u3066\u3044\u308B\u30B7\u30A7\u30FC\u30C0\u30FC\u306E\u63CF\u753B\u306B\u554F\u984C\u304C\u8D77\u3053\u308B\u53EF\u80FD\u6027\u304C\u3042\u308A\u307E\u3059\u3002"
+  - _key: VketCrossPlatformShaderRule.Title
+    _value: "\u30AF\u30ED\u30B9\u30D7\u30E9\u30C3\u30C8\u30D5\u30A9\u30FC\u30E0\u306E\u30B7\u30A7\u30FC\u30C0\u30FC\u30EB\u30FC\u30EB"
+  - _key: VketShaderBlacklistRule.Title
+    _value: "\u4F7F\u7528\u3067\u304D\u306A\u3044\u30B7\u30A7\u30FC\u30C0\u30FC\u304C\u4F7F\u7528\u3055\u308C\u3066\u3044\u307E\u3059\u3002"
+  - _key: VketRuleSetBase.VketMirrorPrefabLimitRule.Title
+    _value: "VketMirror.prefab\u306E\u8A2D\u7F6E\u5236\u9650\u3092\u8D85\u3048\u306A\u3044\u3053\u3068"
+  - _key: VketRuleSetBase.VketMirrorRule.Title
+    _value: "VketMirror\u306E\u30EB\u30FC\u30EB\u306B\u9055\u53CD\u3057\u3066\u3044\u307E\u3059\u3002"

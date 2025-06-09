@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d59dcc03367430bbf76ffbbde227f33, type: 3}
+  m_Name: 13
+  m_EditorClassIdentifier: 
+  _worldName: "Sweet\xD72 Tea Party Rebake - Milk"
+  SpaceSetting:
+    ValidatorRuleSet: Vket2025SummerConceptWorldRuleSet
+    ExportSetting: VketExportSetting
+    TemplateIndex: 0
+    SetPassMaxSize: 20
+    BatchesMaxSize: 30
+    BuildMaxSize: 10
+    AndroidBuildMaxSize: 0
+    RuleUrlJa: https://vket.com/docs/2025summer/submission_rules_space
+    RuleUrlEn: https://vket.com/en/docs/2025summer/submission_rules_space
+  ItemSetting:
+    ValidatorRuleSet: 
+    ExportSetting: 
+    TemplateIndex: 0
+    SetPassMaxSize: 0
+    BatchesMaxSize: 0
+    BuildMaxSize: 0
+    AndroidBuildMaxSize: 0
+    RuleUrlJa: 
+    RuleUrlEn: 

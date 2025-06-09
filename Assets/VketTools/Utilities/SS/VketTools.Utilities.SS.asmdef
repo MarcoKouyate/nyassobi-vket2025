@@ -1,0 +1,13 @@
+{
+    "name": "VketTools.Utilities.SS",
+    "references": [
+        "VketTools.Utilities",
+        "UniTask"
+    ],
+    "includePlatforms": [
+        "Editor",
+        "WindowsStandalone32",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": []
+}

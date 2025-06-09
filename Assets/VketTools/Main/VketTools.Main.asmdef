@@ -1,0 +1,55 @@
+{
+    "name": "VketTools.Main",
+    "rootNamespace": "",
+    "references": [
+        "UniTask",
+        "VketAssets.Utilities.Language.Runtime",
+        "VketTools.Utilities",
+        "VketTools.Utilities.SS",
+        "VketTools.ExhibitionResources",
+        "VketTools.Validator.Rules",
+        "Vket.VketPrefabs",
+        "Vket.VketPrefabs.Editor",
+        "VitDeck.Main",
+        "VitDeck.Main.ValidatedExporter.GUI",
+        "VitDeck.Main.ValidatedExporter",
+        "VitDeck.Utilities",
+        "VitDeck.Language",
+        "VitDeck.Validator",
+        "VitDeck.Validator.Rules",
+        "VitDeck.Validator.Components",
+        "VitDeck.Validator.GUI",
+        "VitDeck.ExhibitorGUI",
+        "VitDeck.TemplateLoader",
+        "VitDeck.Exporter",
+        "VitDeck.Exporter.Addons.VRCSDK3",
+        "UdonSharp.Runtime",
+        "UdonSharp.Editor",
+        "VRC.Udon",
+        "VRC.SDKBase.Editor",
+        "VRC.SDK3.Editor",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.vitdeck.core",
+            "expression": "",
+            "define": "VIT_DEECK_CORE"
+        },
+        {
+            "name": "com.vitdeck.exhibitor",
+            "expression": "",
+            "define": "VIT_DEECK_EXHIBITOR"
+        }
+    ],
+    "noEngineReferences": false
+}

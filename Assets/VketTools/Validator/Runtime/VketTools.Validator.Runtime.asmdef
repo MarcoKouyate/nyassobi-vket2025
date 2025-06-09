@@ -1,0 +1,27 @@
+{
+    "name": "VketTools.Validator.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:302dedb10dfafbc4890a8bb3a14666c6"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.vitdeck.core",
+            "expression": "",
+            "define": "VIT_DEECK_CORE"
+        },
+        {
+            "name": "com.vitdeck.exhibitor",
+            "expression": "",
+            "define": "VIT_DEECK_EXHIBITOR"
+        }
+    ],
+    "noEngineReferences": false
+}

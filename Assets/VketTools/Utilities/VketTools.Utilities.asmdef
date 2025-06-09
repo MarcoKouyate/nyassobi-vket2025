@@ -1,0 +1,32 @@
+{
+    "name": "VketTools.Utilities",
+    "rootNamespace": "",
+    "references": [
+        "VitDeck.Main",
+        "VitDeck.Utilities",
+        "VketAssets.Utilities.Language.Runtime",
+        "UniTask"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.vitdeck.core",
+            "expression": "",
+            "define": "VIT_DEECK_CORE"
+        },
+        {
+            "name": "com.vitdeck.exhibitor",
+            "expression": "",
+            "define": "VIT_DEECK_EXHIBITOR"
+        }
+    ],
+    "noEngineReferences": false
+}

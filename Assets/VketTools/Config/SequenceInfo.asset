@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96ea3625482589843a7899f09e5ab169, type: 3}
+  m_Name: SequenceInfo
+  m_EditorClassIdentifier: 
+  Sequences:
+  - Status: 0
+    Message: 
+  - Status: 2
+    Message: 
+  - Status: 2
+    Message: 
+  - Status: 2
+    Message: Success
+  - Status: 2
+    Message: 'PC: 0 / 5 MB, CrossPlatform: 0 / 3 MB'
+  - Status: 2
+    Message: SetPass Calls 1 / 20, Batches 1 / 30
+  - Status: 2
+    Message: 
+  - Status: 2
+    Message: 
+  - Status: 1
+    Message: 

@@ -1,0 +1,16 @@
+{
+	"name" : "s-ilent.filamented",
+	"displayName" : "Filamented",
+	"version" : "1.3.0",
+	"description" : "A transposal of the shaders from Google's Filament renderer over the framework of Unity's Standard shader to allow for higher quality rendering in Unity.",
+	"unity" : "2022.3",
+	"gitDependencies" : {},
+	"vpmDependencies" : {},
+	"dependencies" : {},
+	"legacyFolders" : {
+		"Assets\\filamented-master" : "32a811cb38301e143afa8a0e47c61705"
+	},
+	"legacyFiles" : {},
+	"legacyPackages" : []
+
+}

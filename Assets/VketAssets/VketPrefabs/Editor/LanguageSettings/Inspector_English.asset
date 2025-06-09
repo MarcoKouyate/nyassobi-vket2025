@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09067ea199f97fc459a3b251c082b626, type: 3}
+  m_Name: Inspector_English
+  m_EditorClassIdentifier: 
+  _tag: Inspector
+  _systemLanguage: 10
+  _language:
+  - _key: VketAttachItemEditor
+    _value: "- The item follows the body by pressing a button, and the tracking position
+      can be adjusted with a slider.\n  The item returns to its initial position
+      when the player exits the booth.\n- Place the object you want to set the appearance
+      of on the \"Visual\" object's children.\n  Delete the collider of the added
+      object.\n- Adjust the Transform of the \"UI\" object to change the placement
+      of buttons and slider panels.\n- Follow the bones specified in the \"DefaultAttachHumanBodyBone\"
+      field.\n  \"BonePositionOffset\", \"BoneRotationOffset\" to adjust position
+      and rotation to follow the bone\n- \"ImageColor\" and \"TextColor\" can be
+      used to change the button color and text color."
+  - _key: VketAvatarPedestalEditor_Default
+    _value: '- This avatar pedestal is equipped with a confirmation window.
+
+      -
+      Set the blueprintId of the avatar on "Blueprint Id"
+
+      - If you want to
+      change the size, adjust the Scale of "VketAvatarPedestal_Default" object.'
+  - _key: VketAvatarPedestalEditor_2D
+    _value: '- This avatar pedestal is equipped a confirmation window where you can
+      use an image as appearance.
+
+      - Set the blueprintId of the avatar on "Blueprint
+      Id"
+
+      - Change "Source Image" to choose the image file.'
+  - _key: VketAvatarPedestalEditor_3D
+    _value: "- This avatar pedestal is equipped with a confirmation window where
+      you can use a 3D model as appearance.\n- Set the blueprintId of the avatar
+      on \"Blueprint Id\"\n- Add the object for pedestal appearance as a child of
+      \"Visual\" object.\n  Then, adjust CapsuleCollider to match the appearance.\n 
+      You may press \"Setup Collider\" button to automatically adjust CapsuleCollider
+      to fit the object.\n  Also, please delete the collider of the object added
+      for pedestal appearance."
+  - _key: VketBGMFaderEditor
+    _value: "- Fades out the world BGM when the player approaches the exhibit space\n 
+      If you assign an sound source to the child AudioSource object, the sound will
+      fade-in and replace the world BGM\n- You may set the fade duration using \"Fade
+      In Time\" and \"Fade Out Time\"\n- You may set the fade volume using \"Fade
+      In Volume Ratio\" and \"Fade Out Volume Ratio\"\n- Enabling \"On Booth Fading\"
+      will automatically trigger the fade when the player approaches the booth"
+  - _key: VketChairEditor
+    _value: "- A normal chair.\n- Add the object you want to use for the look and
+      feel to the \"Visual\" object's children.\n  Delete the collider of the added
+      object.\n- Then move the \\\"EnterLocation\\\" object to adjust the sitting
+      position."
+  - _key: VketFittingChairEditor
+    _value: "- This chair is designed to sit on the Hip Bone position standard.\n 
+      Automatically adjusts seat height to Hip height when seated.\n- Add the object
+      you want to use for the look and feel to the children of the \"Visual\" object.\n 
+      Delete the collider of the added object\n- Then adjust the seating position
+      by moving the \"EnterLocation\" object.\n  The Hip is adjusted to be at the
+      height of the \"EnterLocation\" object."
+  - _key: VketFollowPickupEditor
+    _value: "- This Pickup will follow the player when Used.\n  It's location is
+      synced and reset when left for 30 seconds without being held.\n- When Used,
+      the object will start following a Bone within the range of \"Attach Range\".\n-
+      Set the object for appearance as a child of \"ModeController\" object\n  and
+      adjust the size of CapsuleCollider as you see fit."
+  - _key: VketGroupPageOpenerEditor
+    _value: "- Upon Interact the group page will be opened on player's browser.\n-
+      You may use an image for its appearance.\n  Register a Sprite on \"Sprite\"
+      to change the appearance.\n- If you want to change the size, adjust Scale of
+      \"VketGroupPageOpener\" object."
+  - _key: VketImageDownloaderEditor
+    _value: '- When a player enters a booth, an image is loaded from a URL.
+
+      -
+      "Target Renderer" and "Target Material" specify where the loaded image will
+      be displayed.
+
+      - "Texture Info" allows the player to set up detailed
+      texture settings and shader properties for the target material.
+
+      - When
+      the image is loaded in another booth, the Renderer that was displaying the
+      image will return to the pre-loaded view.'
+  - _key: VketLanguageSwitcherEditor
+    _value: "- Players can change the world language setting locally by Interact.\n-
+      When it is set to Japanese objects registered to \"Jp Switch Objects\" will
+      be displayed\n  while objects registered to \"En Switch Objects\" will disappear.\n 
+      and vice versa when set to English.\n  You can change the appearance image
+      by setting a Sprite on \"Switch To English/Japanese Sprite\"."
+  - _key: VketMirrorEditor
+    _value: "- This Mirror is displayed when the user enters the area and is hidden
+      when the user leaves the area.\n  It can also be controlled by UdonEvent in
+      Manual mode, regardless of the AreaCollider.\n  The position and size of the
+      Mirror body can be changed using the Mirror's Transform placed in the child.\n-
+      Both Auto and Manual will be hidden when the booth is out of range."
+  - _key: VketMirrorEditor_Auto
+    _value: "- When used in Auto mode, Mirror is controlled by entering the range
+      of the BoxCollider associated with this Prefab.\n  Change the position and
+      size of the BoxCollider associated with this component."
+  - _key: VketMirrorEditor_Manual
+    _value: "- When in Manual mode, sendCustomEvent to \u201C_SetEnableMirror()\u201D
+      and \u201C_SetDisableMirror()\u201D from other UdonBehaviour to switch between
+      the two modes.\n  Use _VketOnBoothExit to fire an event when the mirror is
+      hidden."
+  - _key: VketPickupEditor
+    _value: "- This is a synced Pickup whose location will be reset when left for
+      30 seconds without being held.\n- Set the object for appearance as a child
+      of \"ModeController\" object\n  and adjust the size of CapsuleCollider as you
+      see fit.\n- If you want to have Animation, press \"Create new override controller\"
+      button and\n  save the new OverrideController, to which you can register your
+      AnimationClip."
+  - _key: VketSoundFadeEditor
+    _value: "- Every time a player Interact with this object. the world BGM will
+      be fade out or in\n\u3000When an audio file is set to AudioSource, the child
+      object, the set audio will fade as if replacing the world BGM.\n\u3000You can
+      set the length of time for sound fade in with \"Fade In Time\".\n- If \"On
+      Booth Fading\" is active, the fade will automatically kick in when a player
+      is near the booth."
+  - _key: VketStorePreviewOpenerEditor
+    _value: "- Upon Interact the exhibitor page at VketStore will be opened on player's
+      browser.\r\n  This Prefab will function only in the venue worlds during the
+      event period of Virtual Market.\r\n- You may use an image for its appearance.\r\n 
+      Register a Sprite on \"Sprite\" to change the appearance.\r\n- If you want
+      to change the size, adjust Scale of \"VketStorePreviewOpener\" object.\r\n-
+      The preview is displayed at the position of the \"DisplayPoint\" object."
+  - _key: VketStringDownloaderEditor
+    _value: "- When a player enters a booth, text is loaded from a URL.\n- The loaded
+      text is written to the component specified in the \"Target Text\" field.\n 
+      Text, TextMeshPro, and TextMeshProUGUI can be specified."
+  - _key: VketURLOpenerEditor_2D
+    _value: "- Upon Interact the exhibitor page will be opened on player's browser.\n 
+      This Prefab will function only in the venue worlds during the event period
+      of Virtual Market.\n- You may use an image for its appearance.\n  Register
+      a Sprite on \"Sprite\" to change the appearance.\n- If you want to change the
+      size, adjust Scale of \"VketURLOpener_2D\" object."
+  - _key: VketURLOpenerEditor_3D
+    _value: "- Upon Interact the exhibitor page will be opened on player's browser.\n 
+      This Prefab will function only in the venue worlds during the event period
+      of Virtual Market.\n- You can use a 3D model as its appearance.\n- Add the
+      object for object appearance as a child of \"Visual\" object.\n  Then, adjust
+      CapsuleCollider to match the appearance.\n  You may press \"Setup Collider\"
+      button to automatically adjust CapsuleCollider to fit the object.\n  Also,
+      please delete the collider of the object added for pedestal appearance."
+  - _key: VketVideoPlayerEditor
+    _value: "- It plays the video specified in \"Video Url\".\n- If the control panel
+      is not necessary, deactivate \"VketVideoPlayer/Interface\".\n  The video will
+      be displayed on \"VketVideoPlayer/Screen\". Adjust the Scale according to the
+      aspect ratio.\n  The volume and range of video audio can be adjusted with \"VketVideoPlayer/AudioSource\".\n-
+      If \"World Bgm Fade\" is active the world BGM will fade out upon video play.\n-
+      If \"OnBoothPlay\" is active the video will automatically start playing when
+      a player approaches the booth.\n- When the video is not played, the image set
+      on \"Disabled Image\" will be displayed.\n  While the video is loaded, the
+      image on \"Loading Image\" will be displayed."
+  - _key: VketVideoUrlTriggerEditor
+    _value: '- The trigger will change the URL and play the specified VketVideoPlayer.
+
+      -
+      You can choose the activation method from Interact or OnPlayerEnter.
+
+      -
+      If the URL is not set, the VideoPlayer will play as it is.'
+  - _key: VketWebPageOpenerEditor_2D
+    _value: "- Upon Interact the exhibitor page will be opened on player's browser.\n 
+      This Prefab will function only in the venue worlds during the event period
+      of Virtual Market.\n- You may use an image for its appearance.\n  Register
+      a Sprite on \"Sprite\" to change the appearance.\n- If you want to change the
+      size, adjust Scale of \"VketCirclePageOpener_2D\" object."
+  - _key: VketWebPageOpenerEditor_3D
+    _value: "- Upon Interact the exhibitor page will be opened on player's browser.\n 
+      This Prefab will function only in the venue worlds during the event period
+      of Virtual Market.\n- You can use a 3D model as its appearance.\n- Add the
+      object for object appearance as a child of \"Visual\" object.\n  Then, adjust
+      CapsuleCollider to match the appearance.\n  You may press \"Setup Collider\"
+      button to automatically adjust CapsuleCollider to fit the object.\n  Also,
+      please delete the collider of the object added for pedestal appearance."

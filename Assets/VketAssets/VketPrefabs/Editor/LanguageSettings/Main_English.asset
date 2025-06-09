@@ -1,0 +1,490 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09067ea199f97fc459a3b251c082b626, type: 3}
+  m_Name: Main_English
+  m_EditorClassIdentifier: 
+  _tag: Main
+  _systemLanguage: 10
+  _language:
+  - _key: VketPrefabsMainWindow.Title
+    _value: VketPrefabs
+  - _key: VketPrefabsMainWindow.Description
+    _value: The list of available VketPrefabs.
+  - _key: VketAvatarPedestal_2D.Description
+    _value: An avatar pedestal that includes a pop-up confirmation window. An image
+      can be used for display.
+  - _key: VketAvatarPedestal_3D.Description
+    _value: An avatar pedestal that includes a pop-up confirmation window. A 3D model
+      can be used for display.
+  - _key: VketAvatarPedestal_Default.Description
+    _value: An avatar pedestal that includes a pop-up confirmation window.
+  - _key: VketChair.Description
+    _value: A chair gimmick for general use.
+  - _key: VketFittingChair.Description
+    _value: A chair gimmick that automatically adjusts the sitting position based
+      on the player's hip bone height
+  - _key: VketImageDownloader.Description
+    _value: "This prefab displays an image from the allocated URL when the player
+      enters the exhibition space. \nThe target Renderer and Material can be designated
+      for displaying the loaded image."
+  - _key: VketImageDownloader.Repletion
+    _value: '*After prefab generation, set the values via the Inspector.'
+  - _key: VketLanguageSwitcher.Description
+    _value: 'On Prefab interaction, the world''s language settings will be switched
+      locally.
+
+      If the language is set to English, objects in [EnSwitchObjects]
+      will be enabled, while objects in [JpSwitchObjects] will be disabled. The opposite
+      will happen if language is set to Japanese.'
+  - _key: VketFollowPickup.Description
+    _value: "On Prefab interaction, the linked object will follow the player's body.
+      \nThe object's position will be synchronized globally.\nObject position will
+      reset after 30 seconds from the last pickup."
+  - _key: VketPickup.Description
+    _value: 'A Pickup with global position sync.
+
+      Object position will reset
+      after 30 seconds from the last pickup.'
+  - _key: VketSoundFade.Description
+    _value: 'When used, the world BGM will fade out and fade in over a set interval.
+
+      The
+      fade interval may be designated by setting values.
+
+      Also, automatic fade
+      on the player''s exhibition space entry may be set as well.
+
+      If a sound
+      source is designated, the sound will fade in while the world BGM fades out.'
+  - _key: VketStringDownloader.Description
+    _value: 'When the player enters the exhibition space, the text from the allocated
+      URL will be loaded.
+
+      The loaded text will be written on the component
+      designated in "TargetText".
+
+      Available Components are: Text, TextMeshPro,
+      and TextMeshProUGUI.'
+  - _key: VketStringDownloader.Repletion
+    _value: '*This component is for experienced exhibitors. After prefab generation,
+      set the values via the Inspector.'
+  - _key: VketVideoPlayer.Description
+    _value: Plays a video from the given URL.
+  - _key: VketVideoUrlTrigger.Description
+    _value: "Replaces the video URL in VketVideoPlayer to change the currently playing
+      video.\nThe trigger can be activated by the methods below:\n\u30FBOn player
+      interaction\n\u30FBOn player entering a designated range"
+  - _key: VketCirclePageOpener_2D.Description
+    _value: 'On Prefab interaction, the Exhibition Circle page on the Vket website''s
+      catalog will open in the browser.
+
+      This prefab is functional only at
+      the venue worlds during the Virtual Market event period.
+
+      An image can
+      be used for display.'
+  - _key: VketCirclePageOpener_3D.Description
+    _value: 'On Prefab interaction, the Exhibition Circle page on the Vket website''s
+      catalog will open in the browser.
+
+      This prefab is functional only at
+      the venue worlds during the Virtual Market event period.
+
+      A 3D model
+      can be used for display.'
+  - _key: VketItemPageOpener_2D.Description
+    _value: 'On Prefab interaction, the product page on VketStore will open in the
+      browser.
+
+      This prefab is functional only at the venue worlds during the
+      Virtual Market event period.
+
+      An image can be used for display.'
+  - _key: VketItemPageOpener_3D.Description
+    _value: 'On Prefab interaction, the product page on VketStore will open in the
+      browser.
+
+      This prefab is functional only at the venue worlds during the
+      Virtual Market event period.
+
+      A 3D model can be used for display.'
+  - _key: VketPrefabsMainWindow.ItemName
+    _value: 'Prefab Name: {0}'
+  - _key: VketPrefabsMainWindow.ItemDescription
+    _value: 'Description:'
+  - _key: VketPrefabsMainWindow.ItemDescription.None
+    _value: No Description Designated
+  - _key: VketPrefabsMainWindow.OpenSettingWindowButton
+    _value: Generate and Configure Prefab
+  - _key: VketPrefabsMainWindow.CreateVketPrefabButton
+    _value: Generate Prefab
+  - _key: VketPrefabsMainWindow.ExhibitRootObjects.NotFound
+    _value: Failed to find the root object defined by Submission Rules.
+  - _key: VketPrefabsMainWindow.ExhibitRootObjects.Multiple
+    _value: Multiple root objects defined by Submission Rules have been detected.
+  - _key: VketPrefabsMainWindow.CreateVketPrefab.NotFound
+    _value: The target VketPrefab for generation could not be found.
+  - _key: VketPrefabSettingWindow.Header.Title
+    _value: Configuration for {0}
+  - _key: VketPrefabSettingWindow.Header.InstanceNotFound
+    _value: '{0} Prefab couldn''t be found.'
+  - _key: VketPrefabSettingWindow.Footer.SelectButton
+    _value: Select a prefab to configure
+  - _key: VketPrefabSettingWindow.Footer.SelectButton.Help
+    _value: Selects the {0} currently designated for configuration.
+  - _key: VketPrefabSettingWindow.Footer.CancelButton
+    _value: Cancel generation and delete prefab
+  - _key: VketPrefabSettingWindow.Footer.CancelButton.Help
+    _value: Cancels the configuration and delete the generated {0}.
+  - _key: VketPrefabSettingWindow.Footer.CloseButton
+    _value: Finish Prefab Configuration
+  - _key: VketAvatarPedestalSettingWindow.SelectBlueprintId
+    _value: 1. Designate a Blueprint ID
+  - _key: VketAvatarPedestalSettingWindow.SelectBlueprintId.Help
+    _value: Designate the public avatar ID for the pedestal.
+  - _key: VketAvatarPedestalSettingWindow.SizeSetting
+    _value: 2. Adjust scale
+  - _key: VketAvatarPedestalSettingWindow.TextureSetting
+    _value: 3. Set a thumbnail image
+  - _key: VketAvatarPedestalSettingWindow.VisualSetting
+    _value: 2. Set a 3D model for display
+  - _key: VketAvatarPedestalSettingWindow.VisualSetting.Help
+    _value: Designate the 3D object to be displayed.
+  - _key: VketAvatarPedestalSettingWindow.ColliderScaleSetting
+    _value: 3. Setup collider scale
+  - _key: VketAvatarPedestalSettingWindow.ColliderScaleSetting.Help
+    _value: The collider scale will be set up automatically based on the displayed
+      3D object.
+  - _key: VketAvatarPedestalSettingWindow.VisualColliderDeleteButton
+    _value: 4. Delete colliders from the displaying 3D object
+  - _key: VketAvatarPedestalSettingWindow.VisualColliderDeleteButton.Help
+    _value: To ensure proper functionality, colliders in the displayed 3D object
+      must be removed.
+  - _key: VketChairSettingWindow.VisualSetting
+    _value: 1. Designate a 3D model for display
+  - _key: VketChairSettingWindow.VisualSetting.Help
+    _value: Designate a 3D object for display.
+  - _key: VketChairSettingWindow.VisualColliderDeleteButton
+    _value: 2. Delete colliders from the displaying 3D object
+  - _key: VketChairSettingWindow.VisualColliderDeleteButton.Help
+    _value: To ensure proper functionality, colliders in the displayed 3D object
+      must be removed.
+  - _key: VketChairSettingWindow.EnterLocationSetting
+    _value: 3. Adjust sitting position
+  - _key: VketChairSettingWindow.SelectEnterLocationButton
+    _value: Select [Enter Location] object
+  - _key: VketChairSettingWindow.SelectEnterLocationButton.Help
+    _value: Move the selected [Enter Location] object to adjust the sitting position.
+  - _key: VketFittingChairSettingWindow.VisualSetting
+    _value: 1. Designate a 3D model for display
+  - _key: VketFittingChairSettingWindow.VisualSetting.Help
+    _value: Designate a 3D object for display.
+  - _key: VketFittingChairSettingWindow.VisualColliderDeleteButton
+    _value: 2. Delete colliders from the displaying 3D object
+  - _key: VketFittingChairSettingWindow.VisualColliderDeleteButton.Help
+    _value: To ensure proper functionality, colliders in the displayed 3D object
+      must be removed.
+  - _key: VketFittingChairSettingWindow.EnterLocationSetting
+    _value: 3. Adjust sitting position
+  - _key: VketFittingChairSettingWindow.SelectEnterLocationButton
+    _value: Select [Enter Location] object
+  - _key: VketFittingChairSettingWindow.SelectEnterLocationButton.Help
+    _value: "Move the selected [Enter Location] object to adjust the sitting position.
+      \nThe player's hip position will automatically adjust to match the height of
+      [Enter Location]"
+  - _key: VketFollowPickupSettingWindow.FollowBoneSetting
+    _value: 1. Designate avatar bone to follow
+  - _key: VketFollowPickupSettingWindow.AttachRangeSetting
+    _value: 2. Designate attach range
+  - _key: VketFollowPickupSettingWindow.AttachRangeSetting.Help
+    _value: On interaction, the object will begin following if the designated avatar
+      bone is within the attach range.
+  - _key: VketFollowPickupSettingWindow.VisualSetting
+    _value: 3. Designate a 3D model for display
+  - _key: VketFollowPickupSettingWindow.VisualSetting.Help
+    _value: Designate a 3D object for display.
+  - _key: VketFollowPickupSettingWindow.ColliderScaleSetting
+    _value: 4. Setup collider scale
+  - _key: VketFollowPickupSettingWindow.ColliderScaleSetting.Help
+    _value: 'The collider scale will be set up automatically based on the displayed
+      3D object.
+
+      As the collider will be set up smaller than the visible model,
+      please readjust the CapsuleCollider size in the Inspector if needed.'
+  - _key: VketPickupSettingWindow.VisualSetting
+    _value: 1. Designate a 3D model for display
+  - _key: VketPickupSettingWindow.VisualSetting.Help
+    _value: Designate a 3D object for display.
+  - _key: VketPickupSettingWindow.ColliderScaleSetting
+    _value: 2. Setup collider scale
+  - _key: VketPickupSettingWindow.ColliderScaleSetting.Help
+    _value: 'The collider scale will be set up automatically based on the displayed
+      3D object.
+
+      As the collider will be set up smaller than the visible model,
+      please readjust the CapsuleCollider size in the Inspector if needed.'
+  - _key: VketPickupSettingWindow.AdvancedSetting
+    _value: Advanced Settings
+  - _key: VketPickupSettingWindow.AnimationSetting
+    _value: Animation Settings
+  - _key: VketPickupSettingWindow.AnimationSetting.Help
+    _value: To implement an Animation, select the [Create new override controller]
+      to create/save a new OverrideController, and register the AnimationClip.
+  - _key: VketSoundFadeSettingWindow.FadeInTimeSetting
+    _value: 1. Designate fade-in time of the sound source
+  - _key: VketSoundFadeSettingWindow.OnBoothFadeSetting
+    _value: 2. Select this for automatic fading on player's exhibition space entry
+  - _key: VketSoundFadeSettingWindow.AudioClipSetting
+    _value: '3. Designate audio clip to play '
+  - _key: VketSoundFadeSettingWindow.AudioClipSetting.Help
+    _value: The designated audio will play in exchange of the World BGM.
+  - _key: VketVideoPlayerSettingWindow.VideoUrlSetting
+    _value: 1. Designate Video URL
+  - _key: VketVideoPlayerSettingWindow.VideoLoopSetting
+    _value: 2. Select this for looping the video
+  - _key: VketVideoPlayerSettingWindow.FadeBgmSetting
+    _value: 3. Select this for attenuating the world BGM volume on playing the video
+  - _key: VketVideoPlayerSettingWindow.OnEnterPlayerSetting
+    _value: 4. Select this to auto-play video on player's exhibition space entry
+  - _key: VketVideoPlayerSettingWindow.EnabledUiSetting
+    _value: 5. Select this to display control panel
+  - _key: VketVideoPlayerSettingWindow.ScreenSizeSetting
+    _value: 6. Adjust screen size
+  - _key: VketVideoPlayerSettingWindow.ScreenSizeSetting.Aspect
+    _value: Aspect Ratio
+  - _key: VketVideoPlayerSettingWindow.ScreenSizeSetting.Size
+    _value: Adjust screen size
+  - _key: VketVideoPlayerSettingWindow.DisabledImageSetting
+    _value: 7. Image to display when video is not playing
+  - _key: VketVideoPlayerSettingWindow.LoadingImageSetting
+    _value: 8. Image to display when video is loading
+  - _key: VketVideoPlayerSettingWindow.SelectAudioSourceButton
+    _value: Select AudioSource
+  - _key: VketVideoPlayerSettingWindow.SelectAudioSourceButton.Help
+    _value: 'This selects the object handling the video''s audio volume and range.
+
+      Adjust
+      the values via Inspector.'
+  - _key: VketVideoUrlTriggerSettingWindow.VideoUrlSetting
+    _value: 1. Designate Video URL
+  - _key: VketVideoUrlTriggerSettingWindow.VideoUrlSetting.Help
+    _value: If the URL is empty, the VideoPlayer will be played as is.
+  - _key: VketVideoUrlTriggerSettingWindow.VideoPlayerSetting
+    _value: 2. Designate target Video Player
+  - _key: VketVideoUrlTriggerSettingWindow.StartingMethodSetting
+    _value: 3. Select method of trigger
+  - _key: VketVideoUrlTriggerSettingWindow.StartingMethodSetting.Help
+    _value: '[Interact]: trigger on object interaction
+
+      [On Player Enter]:
+      trigger on player entry in a certain range'
+  - _key: VketVideoUrlTriggerSettingWindow.VisualSetting
+    _value: 4. Designate appearance of interaction object
+  - _key: VketVideoUrlTriggerSettingWindow.VisualSetting.Help
+    _value: 'This sets the object for prefab appearance.
+
+      Designate a prefab
+      such as switches, etc.'
+  - _key: VketVideoUrlTriggerSettingWindow.UseRangeSetting
+    _value: 5. Designate range for enabling interaction
+  - _key: VketVideoUrlTriggerSettingWindow.UseRangeSetting.SelectColliderButton
+    _value: Select Collider
+  - _key: VketVideoUrlTriggerSettingWindow.UseRangeSetting.Help
+    _value: 'The trigger range will be designated by the BoxCollider.
+
+      Adjust
+      its scale via Inspector.'
+  - _key: VketVideoUrlTriggerSettingWindow.PlayerEnterSetting
+    _value: 4. Designate range of trigger by player's entry
+  - _key: VketVideoUrlTriggerSettingWindow.PlayerEnterSetting.SelectColliderButton
+    _value: Select Collider
+  - _key: VketVideoUrlTriggerSettingWindow.PlayerEnterSetting.Help
+    _value: 'The trigger range will be designated by the BoxCollider.
+
+      Adjust
+      its scale via Inspector.'
+  - _key: VketWebPageOpenerSettingWindow.SizeSetting
+    _value: 1. Adjust scale
+  - _key: VketWebPageOpenerSettingWindow.TextureSetting
+    _value: 2. Designate image
+  - _key: VketWebPageOpenerSettingWindow.VisualSetting
+    _value: 1. Designate a 3D model for display
+  - _key: VketWebPageOpenerSettingWindow.VisualSetting.Help
+    _value: Designate a 3D object for display.
+  - _key: VketWebPageOpenerSettingWindow.ColliderScaleSetting
+    _value: 1. Setup collider scale
+  - _key: VketWebPageOpenerSettingWindow.ColliderScaleSetting.Help
+    _value: The collider scale will be set up automatically based on the displayed
+      3D object.
+  - _key: VketWebPageOpenerSettingWindow.VisualColliderDeleteButton
+    _value: 3. Delete colliders from the displaying 3D object
+  - _key: VketWebPageOpenerSettingWindow.VisualColliderDeleteButton.Help
+    _value: To ensure proper functionality, colliders in the displayed 3D object
+      must be removed.
+  - _key: VketWebPageOpenerSettingWindow.ItemIdSetting.2D
+    _value: 3. Designate an Item ID
+  - _key: VketWebPageOpenerSettingWindow.ItemIdSetting.3D
+    _value: 4. Designate an Item ID
+  - _key: VketWebPageOpenerSettingWindow.ItemIdSetting.Help
+    _value: Designate the Item ID on the product page.
+  - _key: VketLanguageSwitcherSettingWindow.SizeSetting
+    _value: 1. Adjust scale
+  - _key: VketLanguageSwitcherSettingWindow.SwitchToEnglishSpriteSetting
+    _value: 2. Designate image for switching to English
+  - _key: VketLanguageSwitcherSettingWindow.SwitchToJapaneseSpriteSetting
+    _value: 3. Designate image for switching to Japanese
+  - _key: VketLanguageSwitcherSettingWindow.JpObject
+    _value: '4. Designate objects to be enabled when language is Japanese '
+  - _key: VketLanguageSwitcherSettingWindow.JpObject.Help
+    _value: The objects will be enabled when language is Japanese, disabled when
+      English.
+  - _key: VketLanguageSwitcherSettingWindow.EnObject
+    _value: 5. Designate objects to be enabled when language is English
+  - _key: VketLanguageSwitcherSettingWindow.EnObject.Help
+    _value: The objects will be enabled when language is English, disabled when Japanese.
+      The designated objects must be disabled on default.
+  - _key: VketGroupPageOpenerSettingWindow.SizeSetting
+    _value: 1. Adjust Scale
+  - _key: VketGroupPageOpenerSettingWindow.TextureSetting
+    _value: 2. Designate an Icon
+  - _key: VketGroupPageOpenerSettingWindow.GroupIdSetting.2D
+    _value: 3. Designate a GroupID
+  - _key: VketGroupPageOpenerSettingWindow.GroupIDSetting.Help
+    _value: 'Please designate a GroupID.
+
+      e.g. grp_0ce025bd-0491-4248-b6f4-c93ec056dccc'
+  - _key: VketGroupPageOpenerSettingWindow.StorePageSetting.2D
+    _value: 4. Open the Group's Store page
+  - _key: VketGroupPageOpenerSettingWindow.StorePageSetting.Help
+    _value: If enabled, the Group's Store page will open.
+  - _key: VketGroupPageOpener.Description
+    _value: 'On Prefab interaction, the Group page will open inside the VRChat menu.
+
+      An
+      image can be designated as a visual icon.'
+  - _key: VketStorePreviewOpenerSettingWindow.SizeSetting
+    _value: 1. Adjust Scale
+  - _key: VketStorePreviewOpenerSettingWindow.TextureSetting
+    _value: 2. Designate an Icon
+  - _key: VketStorePreviewOpenerSettingWindow.ItemIdSetting
+    _value: 3. Designate an ItemID
+  - _key: VketStorePreviewOpenerSettingWindow.ItemIdSetting.Help
+    _value: 'Designate an ItemID of the product page.
+
+      During the event period,
+      the product page of the designated ItemID will open.
+
+      *On the submission
+      tool preview, the page for Vketchan will be opened instead.'
+  - _key: VketStorePreviewOpenerSettingWindow.PreviewSetting
+    _value: 4.Preview settings
+  - _key: VketStorePreviewOpenerSettingWindow.PreviewSetting.SelectDisplayPointTransform
+    _value: Select Transform of DisplayPoint
+  - _key: VketStorePreviewOpenerSettingWindow.PreviewSetting.Help
+    _value: Adjusting the transform of the DisplayPoint object will change the preview's
+      position.
+  - _key: VketStorePreviewOpener.Description
+    _value: 'On Prefab interaction, the product page in Vket Store will be opened.
+
+      This
+      prefab is functional only at the Virtual Market venue worlds.
+
+      An image
+      can be designated as a visual icon.
+
+      On the submission tool preview,
+      the page for Vketchan will be opened instead.'
+  - _key: VketAttachItem.Description
+    _value: This item follows the avatar's body when a button is interacted with.
+      The item's follow position can be adjusted using a slider configuration.
+  - _key: VketAttachItemSettingWindow.BoneSetting
+    _value: 1. Designate bone to follow
+  - _key: VketAttachItemSettingWindow.ViewObject
+    _value: 2. Designate an object to display
+  - _key: VketAttachItemSettingWindow.ViewObject.SelectVisualObject
+    _value: Select the Visual object
+  - _key: VketAttachItemSettingWindow.ViewObject.Help
+    _value: Place the object to be attached under the Visual object.
+  - _key: VketAttachItemSettingWindow.ViewObjectTransform
+    _value: 3. Set the initial position of the object to display
+  - _key: VketAttachItemSettingWindow.UISetting
+    _value: 4. UI settings
+  - _key: VketAttachItemSettingWindow.UISetting.SelectUITransform
+    _value: 'Select Transform of UIDisplayPoint '
+  - _key: VketAttachItemSettingWindow.UISetting.Help
+    _value: Editing the Transform of UIDisplayPoint object will adjust the position
+      of the button and slider panel.
+  - _key: VketAttachItemSettingWindow.ButtonColorSetting
+    _value: 5. Set the button color
+  - _key: VketBGMFaderSettingWindow.FadeInTimeSetting
+    _value: 1. Designate fade-in time of Audio Clip
+  - _key: VketBGMFaderSettingWindow.FadeOutTimeSetting
+    _value: 2. Designate fade-out time of World BGM
+  - _key: VketBGMFaderSettingWindow.FadeInVolumeRatioSetting
+    _value: 3. Designate fade-in volume of Audio Clip
+  - _key: VketBGMFaderSettingWindow.FadeOutVolumeRatioSetting
+    _value: 4. Designate fade-out volume of World BGM
+  - _key: VketBGMFaderSettingWindow.OnBoothFadeSetting
+    _value: 5. Check to enable automatic fade-in/out on player entering the exhibition
+      space
+  - _key: VketBGMFaderSettingWindow.AudioClipSetting
+    _value: 6. Allocate Audio Clip to play
+  - _key: VketBGMFaderSettingWindow.AudioClipSetting.Help
+    _value: The allocated Audio Clip will be played as a replacement of World BGM.
+  - _key: VketMirror.Description
+    _value: 'A mirror that appears when a player enters the designated area.
+
+      This
+      prefab can be controlled by Udon when set to Manual mode.'
+  - _key: VketMirror.Repletion
+    _value: '*Please setup this prefab in the Inspector after generated.'
+  - _key: VketURLOpener2D.Description
+    _value: 'On Prefab interaction, the designated webpage will open in the browser.
+
+      The
+      URL domains that can be designated for this prefab are limited to those on
+      the allowlist.
+
+      This prefab is functional only at the venue worlds during
+      the Virtual Market event period.
+
+      An image can be used for display.'
+  - _key: VketURLOpener3D.Description
+    _value: 'On Prefab interaction, the designated webpage will open in the browser.
+
+      The
+      URL domains that can be designated for this prefab are limited to those on
+      the allowlist.
+
+      This prefab is functional only at the venue worlds during
+      the Virtual Market event period.
+
+      A 3D model can be used for display.'
+  - _key: VketURLOpenerSettingWindow.UrlSetting
+    _value: '{0}.Setup URL'
+  - _key: VketURLOpenerSettingWindow.UrlIsNotAllowList
+    _value: 'The designated URL is not included in the Allowlist. Please designate
+      a URL from the following domains:'
+  - _key: VketMirror.InspectorManualModeInfo
+    _value: 'To change the mirror''s display state in Manual mode, please send the
+      custom events ''_SetEnableMirror()'' and ''_SetDisableMirror()'' at sendCustomEvent.
+
+      Collider
+      will be disabled at runtime.'
+  - _key: VketBgmFader.Description
+    _value: 'A Prefab for World BGM fade-in/out.
+
+      By default, the prefab will
+      be triggered when the player enters the exhibition space.
+
+      By allocating
+      a Audio Clip, it can be used for fade-in/out as a replacement of World BGM.'

@@ -1,0 +1,18 @@
+{
+    "name": "VketAssets.Utilities.Language.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b098b4cb22865a446837f74689754ec9"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

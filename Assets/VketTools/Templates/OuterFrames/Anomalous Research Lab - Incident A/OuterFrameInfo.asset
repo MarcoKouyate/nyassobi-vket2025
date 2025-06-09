@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469f7909f8f174548b2f00fa2c2aac70, type: 3}
+  m_Name: OuterFrameInfo
+  m_EditorClassIdentifier: 
+  TargetWorldIds: 04000000
+  OuterFlames:
+  - ID: 1
+    Name: B1FA_Booth_space_sample
+    Prefab: {fileID: 415667902213382746, guid: d8b4b2345edc7b241a09212894ab51b4, type: 3}
+  - ID: 2
+    Name: B1FB_Booth_space_sample
+    Prefab: {fileID: 9032840400051631121, guid: 918f496daf25abb43affc59a1c3fbda1,
+      type: 3}
+  - ID: 3
+    Name: B4FA_Booth_space_sample
+    Prefab: {fileID: 1361109840977832491, guid: 9854399e35beaa6448ef6164d6c35ab6,
+      type: 3}
+  - ID: 4
+    Name: B4FB_Booth_space_sample
+    Prefab: {fileID: 6115769012339334471, guid: fd794531627a9ef42a913dde763ac673,
+      type: 3}
+  - ID: 5
+    Name: B9FA_Booth_space_sample
+    Prefab: {fileID: 7444794936433002048, guid: 727691f1664fbaa45896eb0a25e61f7d,
+      type: 3}
+  - ID: 6
+    Name: B9FB_Booth_space_sample
+    Prefab: {fileID: 7533854331419466581, guid: 1ab448bce7686d4488ac2ff971547cbf,
+      type: 3}
+  - ID: 7
+    Name: B13F_Booth_space_sample
+    Prefab: {fileID: 8264654583344384535, guid: 600cb6fb2a18b5d46be2f27336af0b21,
+      type: 3}

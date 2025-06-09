@@ -1,0 +1,41 @@
+{
+    "name": "VketTools.Validator.Rules",
+    "rootNamespace": "",
+    "references": [
+        "VitDeck.Main",
+        "VitDeck.Exporter",
+        "VitDeck.Utilities",
+        "VitDeck.Validator.Rules",
+        "VitDeck.Validator.Components",
+        "VitDeck.Validator.Runtime",
+        "VRC.Udon",
+        "VRC.Udon.Editor",
+        "UdonSharp.Runtime",
+        "UdonSharp.Editor",
+        "Unity.Postprocessing.Runtime",
+        "VketTools.Utilities",
+        "VketTools.Validator.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.vitdeck.core",
+            "expression": "",
+            "define": "VIT_DEECK_CORE"
+        },
+        {
+            "name": "com.vitdeck.exhibitor",
+            "expression": "",
+            "define": "VIT_DEECK_EXHIBITOR"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03b0fcb5a8eb0e644b0408d84c648ade, type: 3}
+  m_Name: LoginInfo
+  m_EditorClassIdentifier: 
+  Authentication:
+    access_token: wzIHQK5XLw8vycYCipGRbTPLgwVqAMojBat4h0G6iZY
+    expires_in: 7200
+    id_token: 
+    refresh_token: Nl-xV3BUDecd0TK3De1rDhxQ0R0wJJjJ11HsoI8AOe0
+    scope: default
+    token_type: Bearer
+    created_at: 1749498528
+  OauthEndFlg: 1
+  User:
+    user_id: 1633
+    vket_id: memoart
+    name_ja: Memento
+    name_en: Memento
+    roles: 
+    owner_circles: 3804000073040000
+    member_circles: 72040000
+  Circles:
+  - user_id: 1633
+    circle_id: 1139
+    name_ja: "\u30CB\u30E3\u30C3\u30BD\u30D3"
+    name_en: Nyassobi
+    thumbnail: https://epi.vket.chat/uploads/circle/1139/thumbnail/large/077c1b6c-f7d5-4fcc-bd6f-a0e778c7c6271b943bea2da886493ac954c3f62ec825.png
+    entry_worlds:
+      space_worlds: 0b000000
+      item_worlds: 
+      avatar_worlds: 
+  Worlds:
+  - world_id: 11
+    name_ja: Peak Passion
+    name_en: Peak Passion
+    exhibition_platform: pc
+    image: AlterVista
+    exhibition_category:
+    - space
+    - item
+    concept:
+      name_ja: The Alter Vista Midnight
+      name_en: The Alter Vista Midnight
+    ThumbnailTexture: {fileID: 0}
+  SubmissionTerm:
+    event_id: 1
+    is_submit: 1
+    server_time: 2025-06-09T19:49:56Z
+    submission_start_at: 2025-05-23T09:00:00Z
+    submission_end_at: 2025-06-18T15:15:00Z
+    submission_end_at_display: 2025-06-18T14:59:59Z
+  SelectedCircleIndex: 0
+  SelectedWorld:
+    world_id: 11
+    name_ja: Peak Passion
+    name_en: Peak Passion
+    exhibition_platform: pc
+    image: AlterVista
+    exhibition_category:
+    - space
+    - item
+    concept:
+      name_ja: The Alter Vista Midnight
+      name_en: The Alter Vista Midnight
+    ThumbnailTexture: {fileID: 0}
+  SelectedOuterFrameTemplate: 0
+  SelectedType: 1
+  SpecialExhibitedId: 0

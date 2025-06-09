@@ -1,0 +1,16 @@
+{
+    "name": "VketTools.PostProcessor",
+    "rootNamespace": "",
+    "references": ["GUID:bf1e8447a5690a04bb447194d114d540","GUID:f51ebe6a0ceec4240a699833d6309b23"],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

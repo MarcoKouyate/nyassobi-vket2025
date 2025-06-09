@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d622bd3f5b6d5714f9463a704bca25c6, type: 3}
+  m_Name: VersionInfo
+  m_EditorClassIdentifier: 
+  _eventName: Vket2025Summer
+  _eventID: 1
+  _eventVersion: 14
+  _version: 2025S.5aa
+  _packageType: 0
+  dllType: 0
