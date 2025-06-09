@@ -693,9 +693,7 @@ namespace VketTools.Validator.RuleSets
                 new ComponentReference("VRC Unity Video Player", new string[]{"VRC.SDK3.Video.Components.VRCUnityVideoPlayer", }, ValidationLevel.DISALLOW),
                 new ComponentReference("VRC AV Pro Video", new[]
                 {
-                    "VRC.SDK3.Video.Components.AVPro.VRCAVProVideoPlayer",
-                    "VRC.SDK3.Video.Components.AVPro.VRCAVProVideoScreen",
-                    "VRC.SDK3.Video.Components.AVPro.VRCAVProVideoSpeaker"
+                    "VRC.SDK3.Video.Components.AVPro.VRCAVProVideoPlayer"
                 }, ValidationLevel.DISALLOW),
                 new ComponentReference("VRC Midi", new string[]{"VRC.SDK3.Midi.VRCMidiHandler", "VRC.SDK3.Midi.VRCMidiListener"}, ValidationLevel.DISALLOW),
                 new ComponentReference("VRC Portal Marker", new string[]{"VRC.SDKBase.VRC_PortalMarker", "VRC.SDK3.Components.VRCPortalMarker"}, ValidationLevel.DISALLOW),

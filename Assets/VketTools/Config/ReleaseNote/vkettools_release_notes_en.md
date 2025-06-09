@@ -1,6 +1,19 @@
 
 # VketTools Release Notes
 
+## 2025/06/06 2025S.6c
+
+- Fixed default/template settings on PostProcess.
+
+## 2025/06/04 2025S.6b
+
+- Deleted appearance of VketStorePreviewOpener
+
+## 2025/06/04 2025S.6a
+
+- Excluded VRCAVProVideoScreen from Component Check.
+- Excluded VRCAVProVideoSpeaker from Component Check.
+
 ## 2025/05/30 2025S.5aa
 
 - Revised behavior of shader import process.

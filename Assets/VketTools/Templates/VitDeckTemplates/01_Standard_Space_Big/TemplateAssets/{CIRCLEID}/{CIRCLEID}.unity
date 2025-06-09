@@ -210,7 +210,7 @@ PrefabInstance:
     - target: {fileID: 1652998672495890444, guid: abb75ce26e18f4944b01089401edb9fa,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.18629953
+      value: -0.16131422
       objectReference: {fileID: 0}
     - target: {fileID: 1987894064055801652, guid: abb75ce26e18f4944b01089401edb9fa,
         type: 3}
@@ -598,7 +598,7 @@ PrefabInstance:
     - target: {fileID: 6011577886519554080, guid: abb75ce26e18f4944b01089401edb9fa,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.18183452
+      value: -0.17933863
       objectReference: {fileID: 0}
     - target: {fileID: 7062263540242210603, guid: abb75ce26e18f4944b01089401edb9fa,
         type: 3}
@@ -1033,7 +1033,7 @@ MonoBehaviour:
   volumeTrigger: {fileID: 344933536}
   volumeLayer:
     serializedVersion: 2
-    m_Bits: 4194304
+    m_Bits: 16
   stopNaNPropagation: 1
   finalBlitToCameraTarget: 0
   antialiasingMode: 0

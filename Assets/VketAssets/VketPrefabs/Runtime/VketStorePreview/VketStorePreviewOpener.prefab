@@ -214,7 +214,6 @@ GameObject:
   - component: {fileID: 6446524709126440904}
   - component: {fileID: 841677833684315330}
   - component: {fileID: 3478695359229525528}
-  - component: {fileID: 1756228862693011123}
   - component: {fileID: 1305683323855988087}
   m_Layer: 0
   m_Name: VketStorePreviewOpener
@@ -329,22 +328,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.2, y: 0.2, z: 0.001}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1756228862693011123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7119363025659873803}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32013c443db419448b8c9f83a8654166, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _prefabName: 
-  _descriptionKey: VketStorePreviewOpener.Description
-  _repletionKey: 
-  _settingWindowWindowTag: 12
 --- !u!114 &1305683323855988087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -359,6 +342,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _variable: languageManager
   _searchTag: VketLanguageManager
+  _arrayAppendMode: 0
+  _onlyFindChild: 0
 --- !u!1 &7591434588669939187
 GameObject:
   m_ObjectHideFlags: 0

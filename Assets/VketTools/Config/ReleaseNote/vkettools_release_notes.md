@@ -1,6 +1,19 @@
 
 # VketTools リリースノート
 
+## 2025/06/06 2025S.6c
+
+- テンプレートPostProcess設定を修正しました。
+
+## 2025/06/04 2025S.6b
+
+- VketStorePreviewOpenerの表示を削除しました。
+
+## 2025/06/04 2025S.6a
+
+- VRCAVProVideoScreenをコンポーネントチェックの対象から除外しました。
+- VRCAVProVideoSpeakerをコンポーネントチェックの対象から除外しました。
+
 ## 2025/05/30 2025S.5aa
 
 - シェーダーインポートの挙動を修正しました。
