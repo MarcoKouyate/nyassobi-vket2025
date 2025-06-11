@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83709077c9abd5041ae517cd48be1c9f, type: 3}
   m_Name: UserSettings
   m_EditorClassIdentifier: 
-  validatorFolderPath: Assets/1139
-  validatorRuleSetType: Vket2025SummerConceptWorldRuleSet
-  exporterSettingFileName: VketExportSetting
+  validatorFolderPath: 
+  validatorRuleSetType: 
+  exporterSettingFileName: 

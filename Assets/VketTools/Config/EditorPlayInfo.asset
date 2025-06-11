@@ -21,7 +21,7 @@ MonoBehaviour:
   SsSuccessFlag: 0
   ClientSimEnabledRestoreFlag: 1
   BuildSize: 0
-  SetPassCalls: 2
-  Batches: 6
+  SetPassCalls: 4
+  Batches: 10
   SsPath: 
   IsShowPlayModeNotification: 1

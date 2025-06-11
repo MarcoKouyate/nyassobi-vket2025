@@ -13,22 +13,22 @@ MonoBehaviour:
   m_Name: LoginInfo
   m_EditorClassIdentifier: 
   Authentication:
-    access_token: JLXaw2H29HAiuubpkcMlfKirUlMT24hAMcCN9WFFy8A
-    expires_in: 7200
+    access_token: 
+    expires_in: 0
     id_token: 
-    refresh_token: QqEUz80qbN-Idf0ewV8XHCAczdqDW8y7Z6DaZsmpecs
-    scope: default
-    token_type: Bearer
-    created_at: 1749679002
-  OauthEndFlg: 1
+    refresh_token: 
+    scope: 
+    token_type: 
+    created_at: 0
+  OauthEndFlg: 0
   User:
-    user_id: 1633
-    vket_id: memoart
-    name_ja: Memento
-    name_en: Memento
+    user_id: 0
+    vket_id: 
+    name_ja: 
+    name_en: 
     roles: 
-    owner_circles: 3804000073040000
-    member_circles: 72040000
+    owner_circles: 
+    member_circles: 
   Circles:
   - user_id: 1633
     circle_id: 1139
@@ -39,40 +39,26 @@ MonoBehaviour:
       space_worlds: 0b000000
       item_worlds: 
       avatar_worlds: 
-  Worlds:
-  - world_id: 11
-    name_ja: Peak Passion
-    name_en: Peak Passion
-    exhibition_platform: pc
-    image: AlterVista
-    exhibition_category:
-    - space
-    - item
-    concept:
-      name_ja: The Alter Vista Midnight
-      name_en: The Alter Vista Midnight
-    ThumbnailTexture: {fileID: 0}
+  Worlds: []
   SubmissionTerm:
     event_id: 1
     is_submit: 1
-    server_time: 2025-06-11T21:56:43Z
+    server_time: 2025-06-11T19:56:48Z
     submission_start_at: 2025-05-23T09:00:00Z
     submission_end_at: 2025-06-18T15:15:00Z
     submission_end_at_display: 2025-06-18T14:59:59Z
-  SelectedCircleIndex: 0
+  SelectedCircleIndex: 9999
   SelectedWorld:
-    world_id: 11
-    name_ja: Peak Passion
-    name_en: Peak Passion
-    exhibition_platform: pc
-    image: AlterVista
-    exhibition_category:
-    - space
-    - item
+    world_id: 0
+    name_ja: 
+    name_en: 
+    exhibition_platform: 
+    image: 
+    exhibition_category: []
     concept:
-      name_ja: The Alter Vista Midnight
-      name_en: The Alter Vista Midnight
+      name_ja: 
+      name_en: 
     ThumbnailTexture: {fileID: 0}
   SelectedOuterFrameTemplate: 0
-  SelectedType: 1
+  SelectedType: 0
   SpecialExhibitedId: 0
