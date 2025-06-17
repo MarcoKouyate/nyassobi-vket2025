@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: LoginInfo
   m_EditorClassIdentifier: 
   Authentication:
-    access_token: f7av8aMyV2oW1iJs6vCPbILsl4UdSWS4Rd1udMhnRj4
+    access_token: yo7P2kNpYsTzjqq_HS8rW4ntYtJhxcPabfk8MVQpaP8
     expires_in: 7200
     id_token: 
-    refresh_token: 1P3LFQ-kSltxWOO0ScxgfI-fQb70ZKEp8CcRFuS4tT0
+    refresh_token: MGD2KLIQ_zTTC7mTVwNgL1h6EXIqHycsDBmQ-gAOIpM
     scope: default
     token_type: Bearer
-    created_at: 1750185473
+    created_at: 1750199876
   OauthEndFlg: 1
   User:
     user_id: 1633
@@ -55,7 +55,7 @@ MonoBehaviour:
   SubmissionTerm:
     event_id: 1
     is_submit: 1
-    server_time: 2025-06-17T19:19:41Z
+    server_time: 2025-06-17T23:32:58Z
     submission_start_at: 2025-05-23T09:00:00Z
     submission_end_at: 2025-06-18T15:15:00Z
     submission_end_at_display: 2025-06-18T14:59:59Z

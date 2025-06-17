@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7b69e7ce42d6f44d8645dacf8bfe5d1, type: 3}
   m_Name: LocalizedSetting
   m_EditorClassIdentifier: 
-  _currentLanguage: 43
+  _currentLanguage: 10
   _selectableLanguages: 2b000000160000000a000000

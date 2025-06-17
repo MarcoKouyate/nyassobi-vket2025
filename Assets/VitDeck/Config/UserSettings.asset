@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   validatorFolderPath: Assets/1139
   validatorRuleSetType: Vket2025SummerConceptWorldRuleSet
-  exporterSettingFileName: 
+  exporterSettingFileName: VketExportSetting

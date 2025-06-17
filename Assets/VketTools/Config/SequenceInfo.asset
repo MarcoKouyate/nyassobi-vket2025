@@ -22,9 +22,9 @@ MonoBehaviour:
   - Status: 2
     Message: Success
   - Status: 2
-    Message: 'PC: 2.98459 / 10 MB'
+    Message: 'PC: 3.12069 / 10 MB'
   - Status: 2
-    Message: SetPass Calls 12 / 20, Batches 22 / 30
+    Message: SetPass Calls 14 / 20, Batches 30 / 30
   - Status: 2
     Message: 
   - Status: 2
