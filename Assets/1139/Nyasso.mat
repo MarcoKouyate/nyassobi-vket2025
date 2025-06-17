@@ -20,6 +20,7 @@ Material:
   stringTagMap:
     BakedShaderFolder: Nyasso-61af2ce4
     OriginalShader: Silent's Cel Shading/Crosstone
+    VRCFallback: ToonDoubleSided
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
@@ -86,7 +87,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: d7c039fce8e195b4dac03393a34d383a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ClippingMask:
@@ -230,7 +231,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 9cc54306965f19140b6a41685de64c48, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9d35b51610e361b4d8ce06fd6ab59ede, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTexBackface:
