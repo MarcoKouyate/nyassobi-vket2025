@@ -12,4 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96ea3625482589843a7899f09e5ab169, type: 3}
   m_Name: SequenceInfo
   m_EditorClassIdentifier: 
-  sequenceStatus: []
+  Sequences:
+  - Status: 0
+    Message: 
+  - Status: 2
+    Message: 
+  - Status: 2
+    Message: 
+  - Status: 2
+    Message: Success
+  - Status: 2
+    Message: 'PC: 2.98459 / 10 MB'
+  - Status: 2
+    Message: SetPass Calls 12 / 20, Batches 22 / 30
+  - Status: 2
+    Message: 
+  - Status: 2
+    Message: 
+  - Status: 2
+    Message: 
