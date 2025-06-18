@@ -12,7 +12,6 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _BACKFACE
   - _METALLICGLOSSMAP
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -208,7 +207,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _1st_ShadeColor_Feather: 0.01
+    - _1st_ShadeColor_Feather: 0.119
     - _1st_ShadeColor_Step: 0.5
     - _2nd_ShadeColor_Feather: 0.01
     - _2nd_ShadeColor_Step: 0
@@ -416,7 +415,7 @@ Material:
     - _ShadeGradient: 0.75
     - _ShadeWidth: 0.75
     - _ShadingFO: 0
-    - _ShadowBorderRange: 0
+    - _ShadowBorderRange: 0.048
     - _ShiftHue: 0
     - _ShiftSaturation: 1
     - _ShiftValue: 1
@@ -465,7 +464,7 @@ Material:
     - _UseAdvancedEmission: 0
     - _UseAnimation: 0
     - _UseAudiolinkLightSense: 0
-    - _UseBackfaceTexture: 1
+    - _UseBackfaceTexture: 0
     - _UseDetailMaps: 0
     - _UseEmissiveAudiolink: 0
     - _UseEmissiveLightSense: 0
@@ -530,7 +529,7 @@ Material:
     - _ProximityShadowFrontColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimLitColor: {r: 1, g: 1, b: 1, a: 1}
     - _SSSCol: {r: 1, g: 1, b: 1, a: 1}
-    - _ShadowBorderColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ShadowBorderColor: {r: 0.7075472, g: 0.3045157, b: 0.02336242, a: 1}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
     - _SubColor: {r: 1, g: 1, b: 1, a: 1}
     - _alColorA: {r: 0.33299997, g: 0.33299997, b: 0.33299997, a: 0}
