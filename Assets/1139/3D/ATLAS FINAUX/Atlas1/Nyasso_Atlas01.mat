@@ -8,16 +8,18 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Nyasso_Atlas01
-  m_Shader: {fileID: 4800000, guid: 3701d6a6f5f988b4a9cea92f1426a955, type: 3}
+  m_Shader: {fileID: 4800000, guid: a9a812ee108476f4eae9c507264cc297, type: 3}
   m_Parent: {fileID: 2100000, guid: a021b5adcdf58ec4e9bc7ec79e00528c, type: 2}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _BACKFACE
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
@@ -32,6 +34,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats: []
+    m_Floats:
+    - _SpecularType: 0
     m_Colors: []
   m_BuildTextureStacks: []
